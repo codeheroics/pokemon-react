@@ -21,3 +21,15 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.SearchResults {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.SearchResult {
+  display: flex;
+  flex-direction: column;
+  padding: .5em;
+}

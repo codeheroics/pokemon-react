@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import pokemons from './data/pokemon'
+
 import Search from './components/Search'
 
 class App extends Component {
@@ -15,7 +17,7 @@ class App extends Component {
         </div>
         <div className="App-main">
           <h3>Search for Pokémons and mark them as caught</h3>
-          <Search pokemons={[{ name: 'pikachu' }]} />
+          <Search pokemons={pokemons} />
         </div>
       </div>
     );
