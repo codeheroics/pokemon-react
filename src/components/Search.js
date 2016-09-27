@@ -2,10 +2,13 @@ import React, { Component } from 'react'
 
 import SearchResults from './SearchResults'
 
+
 class Search extends Component {
   constructor(props) {
     super(props)
-    this.state = { searchTerm: '' }
+    this.state = {
+      searchTerm: ''
+     }
   }
 
   search = (event) => {
@@ -13,11 +16,12 @@ class Search extends Component {
   }
 
   render() {
-    const { searchTerm } = this.state
-    const { pokemons: allPokemons } = this.props
-    const displayedPokemons = searchTerm ?
+    const { caughtPokemons, searchTerm } = this.state
+    const { pokemons: allPokemons, onSelect } = this.props
+    const displayedPokemons = (searchTerm ?
       allPokemons.filter(({ identifier }) => identifier.includes(searchTerm)) :
       allPokemons
+    ).slice(0, 151)
 
     return (
       <div className="Search">
@@ -25,7 +29,10 @@ class Search extends Component {
           <input type="text" onChange={this.search} />
         </div>
         <div>
-          <SearchResults pokemons={displayedPokemons.slice(0, 151)} />
+          <SearchResults
+            pokemons={displayedPokemons}
+            onSelect={this.props.onSelect}
+          />
         </div>
       </div>
     );

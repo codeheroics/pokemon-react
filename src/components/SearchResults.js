@@ -1,9 +1,13 @@
 import React from 'react';
 
-const SearchResults = ({ pokemons }) => (
+const SearchResults = ({ pokemons, onSelect }) => (
   <div className="SearchResults">
-    {pokemons.map(({ id, identifier, name }) => (
-      <div className="SearchResult" key={identifier}>
+    {pokemons.map(({ caught, id, identifier, name }) => (
+      <div
+        className={`SearchResult ${caught ? 'Caught' : 'Uncaught'}`}
+        key={identifier}
+        onClick={() => onSelect(id)}
+      >
         <div>
           <img
             alt={name}

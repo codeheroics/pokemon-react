@@ -26,10 +26,20 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 1em;
 }
 
 .SearchResult {
   display: flex;
   flex-direction: column;
-  padding: .5em;
+  width: 112px;
+  cursor: pointer;
+}
+
+.SearchResult img {
+  transition: opacity .25s ease-out;
+}
+
+.Uncaught img {
+  opacity: .3;
 }
