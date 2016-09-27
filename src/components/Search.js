@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
-import SearchResults from './SearchResults'
-
+import Pokemons from './Pokemons'
 
 class Search extends Component {
   constructor(props) {
@@ -16,7 +15,7 @@ class Search extends Component {
   }
 
   render() {
-    const { caughtPokemons, searchTerm } = this.state
+    const { searchTerm } = this.state
     const { pokemons: allPokemons, onSelect } = this.props
     const displayedPokemons = (searchTerm ?
       allPokemons.filter(({ identifier }) => identifier.includes(searchTerm)) :
@@ -29,9 +28,9 @@ class Search extends Component {
           <input type="text" onChange={this.search} />
         </div>
         <div>
-          <SearchResults
+          <Pokemons
             pokemons={displayedPokemons}
-            onSelect={this.props.onSelect}
+            onSelect={onSelect}
           />
         </div>
       </div>

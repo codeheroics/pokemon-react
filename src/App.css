@@ -22,21 +22,21 @@
   to { transform: rotate(360deg); }
 }
 
-.SearchResults {
+.Pokemons {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 1em;
 }
 
-.SearchResult {
+.Pokemon {
   display: flex;
   flex-direction: column;
   width: 112px;
   cursor: pointer;
 }
 
-.SearchResult img {
+.Pokemon img {
   transition: opacity .25s ease-out;
 }
 
