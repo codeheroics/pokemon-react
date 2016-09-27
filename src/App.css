@@ -38,6 +38,8 @@
 
 .Pokemon img {
   transition: opacity .25s ease-out;
+  width: 96px;
+  height: 96px;
 }
 
 .Uncaught img {
