@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import logo from './logo.png';
-import './App.css';
+import React, { Component } from 'react'
+import logo from './logo.png'
+import './App.css'
 
 import pokemonsJSON from './data/pokemon'
 
@@ -47,8 +47,8 @@ class App extends Component {
           />
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App

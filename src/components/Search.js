@@ -34,8 +34,8 @@ class Search extends Component {
           />
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default Search;
+export default Search

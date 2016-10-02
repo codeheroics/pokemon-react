@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 import Pokemon from './Pokemon'
 
@@ -16,4 +16,4 @@ const Pokemons = ({ pokemons, onSelect }) => (
   </div>
 )
 
-export default Pokemons;
+export default Pokemons
