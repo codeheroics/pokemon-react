@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Pokemons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.Pokemon {
+  display: flex;
+  flex-direction: column;
+  width: 112px;
+  cursor: pointer;
+}
+
+.Pokemon img {
+  transition: opacity .25s ease-out;
+  width: 96px;
+  height: 96px;
+}
+
+.Uncaught img {
+  opacity: .3;
+}
