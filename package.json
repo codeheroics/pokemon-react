@@ -1,7 +1,8 @@
 {
   "name": "pokemon-react",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "private": false,
+  "homepage": "https://codeheroics.github.io/pokemon-react",
   "devDependencies": {
     "react-scripts": "0.4.3"
   },
