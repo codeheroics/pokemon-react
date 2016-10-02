@@ -1,0 +1,6490 @@
+[
+  {
+    "id": 1,
+    "identifier": "bulbasaur",
+    "name": "Bulbasaur",
+    "height": 7,
+    "weight": 69,
+    "order": 1
+  },
+  {
+    "id": 2,
+    "identifier": "ivysaur",
+    "name": "Ivysaur",
+    "height": 10,
+    "weight": 130,
+    "order": 2
+  },
+  {
+    "id": 3,
+    "identifier": "venusaur",
+    "name": "Venusaur",
+    "height": 20,
+    "weight": 1000,
+    "order": 3
+  },
+  {
+    "id": 4,
+    "identifier": "charmander",
+    "name": "Charmander",
+    "height": 6,
+    "weight": 85,
+    "order": 5
+  },
+  {
+    "id": 5,
+    "identifier": "charmeleon",
+    "name": "Charmeleon",
+    "height": 11,
+    "weight": 190,
+    "order": 6
+  },
+  {
+    "id": 6,
+    "identifier": "charizard",
+    "name": "Charizard",
+    "height": 17,
+    "weight": 905,
+    "order": 7
+  },
+  {
+    "id": 7,
+    "identifier": "squirtle",
+    "name": "Squirtle",
+    "height": 5,
+    "weight": 90,
+    "order": 10
+  },
+  {
+    "id": 8,
+    "identifier": "wartortle",
+    "name": "Wartortle",
+    "height": 10,
+    "weight": 225,
+    "order": 11
+  },
+  {
+    "id": 9,
+    "identifier": "blastoise",
+    "name": "Blastoise",
+    "height": 16,
+    "weight": 855,
+    "order": 12
+  },
+  {
+    "id": 10,
+    "identifier": "caterpie",
+    "name": "Caterpie",
+    "height": 3,
+    "weight": 29,
+    "order": 14
+  },
+  {
+    "id": 11,
+    "identifier": "metapod",
+    "name": "Metapod",
+    "height": 7,
+    "weight": 99,
+    "order": 15
+  },
+  {
+    "id": 12,
+    "identifier": "butterfree",
+    "name": "Butterfree",
+    "height": 11,
+    "weight": 320,
+    "order": 16
+  },
+  {
+    "id": 13,
+    "identifier": "weedle",
+    "name": "Weedle",
+    "height": 3,
+    "weight": 32,
+    "order": 17
+  },
+  {
+    "id": 14,
+    "identifier": "kakuna",
+    "name": "Kakuna",
+    "height": 6,
+    "weight": 100,
+    "order": 18
+  },
+  {
+    "id": 15,
+    "identifier": "beedrill",
+    "name": "Beedrill",
+    "height": 10,
+    "weight": 295,
+    "order": 19
+  },
+  {
+    "id": 16,
+    "identifier": "pidgey",
+    "name": "Pidgey",
+    "height": 3,
+    "weight": 18,
+    "order": 21
+  },
+  {
+    "id": 17,
+    "identifier": "pidgeotto",
+    "name": "Pidgeotto",
+    "height": 11,
+    "weight": 300,
+    "order": 22
+  },
+  {
+    "id": 18,
+    "identifier": "pidgeot",
+    "name": "Pidgeot",
+    "height": 15,
+    "weight": 395,
+    "order": 23
+  },
+  {
+    "id": 19,
+    "identifier": "rattata",
+    "name": "Rattata",
+    "height": 3,
+    "weight": 35,
+    "order": 25
+  },
+  {
+    "id": 20,
+    "identifier": "raticate",
+    "name": "Raticate",
+    "height": 7,
+    "weight": 185,
+    "order": 26
+  },
+  {
+    "id": 21,
+    "identifier": "spearow",
+    "name": "Spearow",
+    "height": 3,
+    "weight": 20,
+    "order": 27
+  },
+  {
+    "id": 22,
+    "identifier": "fearow",
+    "name": "Fearow",
+    "height": 12,
+    "weight": 380,
+    "order": 28
+  },
+  {
+    "id": 23,
+    "identifier": "ekans",
+    "name": "Ekans",
+    "height": 20,
+    "weight": 69,
+    "order": 29
+  },
+  {
+    "id": 24,
+    "identifier": "arbok",
+    "name": "Arbok",
+    "height": 35,
+    "weight": 650,
+    "order": 30
+  },
+  {
+    "id": 25,
+    "identifier": "pikachu",
+    "name": "Pikachu",
+    "height": 4,
+    "weight": 60,
+    "order": 32
+  },
+  {
+    "id": 26,
+    "identifier": "raichu",
+    "name": "Raichu",
+    "height": 8,
+    "weight": 300,
+    "order": 39
+  },
+  {
+    "id": 27,
+    "identifier": "sandshrew",
+    "name": "Sandshrew",
+    "height": 6,
+    "weight": 120,
+    "order": 40
+  },
+  {
+    "id": 28,
+    "identifier": "sandslash",
+    "name": "Sandslash",
+    "height": 10,
+    "weight": 295,
+    "order": 41
+  },
+  {
+    "id": 29,
+    "identifier": "nidoran-f",
+    "name": "Nidoran ♀",
+    "height": 4,
+    "weight": 70,
+    "order": 42
+  },
+  {
+    "id": 30,
+    "identifier": "nidorina",
+    "name": "Nidorina",
+    "height": 8,
+    "weight": 200,
+    "order": 43
+  },
+  {
+    "id": 31,
+    "identifier": "nidoqueen",
+    "name": "Nidoqueen",
+    "height": 13,
+    "weight": 600,
+    "order": 44
+  },
+  {
+    "id": 32,
+    "identifier": "nidoran-m",
+    "name": "Nidoran ♂",
+    "height": 5,
+    "weight": 90,
+    "order": 45
+  },
+  {
+    "id": 33,
+    "identifier": "nidorino",
+    "name": "Nidorino",
+    "height": 9,
+    "weight": 195,
+    "order": 46
+  },
+  {
+    "id": 34,
+    "identifier": "nidoking",
+    "name": "Nidoking",
+    "height": 14,
+    "weight": 620,
+    "order": 47
+  },
+  {
+    "id": 35,
+    "identifier": "clefairy",
+    "name": "Clefairy",
+    "height": 6,
+    "weight": 75,
+    "order": 49
+  },
+  {
+    "id": 36,
+    "identifier": "clefable",
+    "name": "Clefable",
+    "height": 13,
+    "weight": 400,
+    "order": 50
+  },
+  {
+    "id": 37,
+    "identifier": "vulpix",
+    "name": "Vulpix",
+    "height": 6,
+    "weight": 99,
+    "order": 51
+  },
+  {
+    "id": 38,
+    "identifier": "ninetales",
+    "name": "Ninetales",
+    "height": 11,
+    "weight": 199,
+    "order": 52
+  },
+  {
+    "id": 39,
+    "identifier": "jigglypuff",
+    "name": "Jigglypuff",
+    "height": 5,
+    "weight": 55,
+    "order": 54
+  },
+  {
+    "id": 40,
+    "identifier": "wigglytuff",
+    "name": "Wigglytuff",
+    "height": 10,
+    "weight": 120,
+    "order": 55
+  },
+  {
+    "id": 41,
+    "identifier": "zubat",
+    "name": "Zubat",
+    "height": 8,
+    "weight": 75,
+    "order": 56
+  },
+  {
+    "id": 42,
+    "identifier": "golbat",
+    "name": "Golbat",
+    "height": 16,
+    "weight": 550,
+    "order": 57
+  },
+  {
+    "id": 43,
+    "identifier": "oddish",
+    "name": "Oddish",
+    "height": 5,
+    "weight": 54,
+    "order": 59
+  },
+  {
+    "id": 44,
+    "identifier": "gloom",
+    "name": "Gloom",
+    "height": 8,
+    "weight": 86,
+    "order": 60
+  },
+  {
+    "id": 45,
+    "identifier": "vileplume",
+    "name": "Vileplume",
+    "height": 12,
+    "weight": 186,
+    "order": 61
+  },
+  {
+    "id": 46,
+    "identifier": "paras",
+    "name": "Paras",
+    "height": 3,
+    "weight": 54,
+    "order": 63
+  },
+  {
+    "id": 47,
+    "identifier": "parasect",
+    "name": "Parasect",
+    "height": 10,
+    "weight": 295,
+    "order": 64
+  },
+  {
+    "id": 48,
+    "identifier": "venonat",
+    "name": "Venonat",
+    "height": 10,
+    "weight": 300,
+    "order": 65
+  },
+  {
+    "id": 49,
+    "identifier": "venomoth",
+    "name": "Venomoth",
+    "height": 15,
+    "weight": 125,
+    "order": 66
+  },
+  {
+    "id": 50,
+    "identifier": "diglett",
+    "name": "Diglett",
+    "height": 2,
+    "weight": 8,
+    "order": 67
+  },
+  {
+    "id": 51,
+    "identifier": "dugtrio",
+    "name": "Dugtrio",
+    "height": 7,
+    "weight": 333,
+    "order": 68
+  },
+  {
+    "id": 52,
+    "identifier": "meowth",
+    "name": "Meowth",
+    "height": 4,
+    "weight": 42,
+    "order": 69
+  },
+  {
+    "id": 53,
+    "identifier": "persian",
+    "name": "Persian",
+    "height": 10,
+    "weight": 320,
+    "order": 70
+  },
+  {
+    "id": 54,
+    "identifier": "psyduck",
+    "name": "Psyduck",
+    "height": 8,
+    "weight": 196,
+    "order": 71
+  },
+  {
+    "id": 55,
+    "identifier": "golduck",
+    "name": "Golduck",
+    "height": 17,
+    "weight": 766,
+    "order": 72
+  },
+  {
+    "id": 56,
+    "identifier": "mankey",
+    "name": "Mankey",
+    "height": 5,
+    "weight": 280,
+    "order": 73
+  },
+  {
+    "id": 57,
+    "identifier": "primeape",
+    "name": "Primeape",
+    "height": 10,
+    "weight": 320,
+    "order": 74
+  },
+  {
+    "id": 58,
+    "identifier": "growlithe",
+    "name": "Growlithe",
+    "height": 7,
+    "weight": 190,
+    "order": 75
+  },
+  {
+    "id": 59,
+    "identifier": "arcanine",
+    "name": "Arcanine",
+    "height": 19,
+    "weight": 1550,
+    "order": 76
+  },
+  {
+    "id": 60,
+    "identifier": "poliwag",
+    "name": "Poliwag",
+    "height": 6,
+    "weight": 124,
+    "order": 77
+  },
+  {
+    "id": 61,
+    "identifier": "poliwhirl",
+    "name": "Poliwhirl",
+    "height": 10,
+    "weight": 200,
+    "order": 78
+  },
+  {
+    "id": 62,
+    "identifier": "poliwrath",
+    "name": "Poliwrath",
+    "height": 13,
+    "weight": 540,
+    "order": 79
+  },
+  {
+    "id": 63,
+    "identifier": "abra",
+    "name": "Abra",
+    "height": 9,
+    "weight": 195,
+    "order": 81
+  },
+  {
+    "id": 64,
+    "identifier": "kadabra",
+    "name": "Kadabra",
+    "height": 13,
+    "weight": 565,
+    "order": 82
+  },
+  {
+    "id": 65,
+    "identifier": "alakazam",
+    "name": "Alakazam",
+    "height": 15,
+    "weight": 480,
+    "order": 83
+  },
+  {
+    "id": 66,
+    "identifier": "machop",
+    "name": "Machop",
+    "height": 8,
+    "weight": 195,
+    "order": 85
+  },
+  {
+    "id": 67,
+    "identifier": "machoke",
+    "name": "Machoke",
+    "height": 15,
+    "weight": 705,
+    "order": 86
+  },
+  {
+    "id": 68,
+    "identifier": "machamp",
+    "name": "Machamp",
+    "height": 16,
+    "weight": 1300,
+    "order": 87
+  },
+  {
+    "id": 69,
+    "identifier": "bellsprout",
+    "name": "Bellsprout",
+    "height": 7,
+    "weight": 40,
+    "order": 88
+  },
+  {
+    "id": 70,
+    "identifier": "weepinbell",
+    "name": "Weepinbell",
+    "height": 10,
+    "weight": 64,
+    "order": 89
+  },
+  {
+    "id": 71,
+    "identifier": "victreebel",
+    "name": "Victreebel",
+    "height": 17,
+    "weight": 155,
+    "order": 90
+  },
+  {
+    "id": 72,
+    "identifier": "tentacool",
+    "name": "Tentacool",
+    "height": 9,
+    "weight": 455,
+    "order": 91
+  },
+  {
+    "id": 73,
+    "identifier": "tentacruel",
+    "name": "Tentacruel",
+    "height": 16,
+    "weight": 550,
+    "order": 92
+  },
+  {
+    "id": 74,
+    "identifier": "geodude",
+    "name": "Geodude",
+    "height": 4,
+    "weight": 200,
+    "order": 93
+  },
+  {
+    "id": 75,
+    "identifier": "graveler",
+    "name": "Graveler",
+    "height": 10,
+    "weight": 1050,
+    "order": 94
+  },
+  {
+    "id": 76,
+    "identifier": "golem",
+    "name": "Golem",
+    "height": 14,
+    "weight": 3000,
+    "order": 95
+  },
+  {
+    "id": 77,
+    "identifier": "ponyta",
+    "name": "Ponyta",
+    "height": 10,
+    "weight": 300,
+    "order": 96
+  },
+  {
+    "id": 78,
+    "identifier": "rapidash",
+    "name": "Rapidash",
+    "height": 17,
+    "weight": 950,
+    "order": 97
+  },
+  {
+    "id": 79,
+    "identifier": "slowpoke",
+    "name": "Slowpoke",
+    "height": 12,
+    "weight": 360,
+    "order": 98
+  },
+  {
+    "id": 80,
+    "identifier": "slowbro",
+    "name": "Slowbro",
+    "height": 16,
+    "weight": 785,
+    "order": 99
+  },
+  {
+    "id": 81,
+    "identifier": "magnemite",
+    "name": "Magnemite",
+    "height": 3,
+    "weight": 60,
+    "order": 102
+  },
+  {
+    "id": 82,
+    "identifier": "magneton",
+    "name": "Magneton",
+    "height": 10,
+    "weight": 600,
+    "order": 103
+  },
+  {
+    "id": 83,
+    "identifier": "farfetchd",
+    "name": "Farfetchd",
+    "height": 8,
+    "weight": 150,
+    "order": 105
+  },
+  {
+    "id": 84,
+    "identifier": "doduo",
+    "name": "Doduo",
+    "height": 14,
+    "weight": 392,
+    "order": 106
+  },
+  {
+    "id": 85,
+    "identifier": "dodrio",
+    "name": "Dodrio",
+    "height": 18,
+    "weight": 852,
+    "order": 107
+  },
+  {
+    "id": 86,
+    "identifier": "seel",
+    "name": "Seel",
+    "height": 11,
+    "weight": 900,
+    "order": 108
+  },
+  {
+    "id": 87,
+    "identifier": "dewgong",
+    "name": "Dewgong",
+    "height": 17,
+    "weight": 1200,
+    "order": 109
+  },
+  {
+    "id": 88,
+    "identifier": "grimer",
+    "name": "Grimer",
+    "height": 9,
+    "weight": 300,
+    "order": 110
+  },
+  {
+    "id": 89,
+    "identifier": "muk",
+    "name": "Muk",
+    "height": 12,
+    "weight": 300,
+    "order": 111
+  },
+  {
+    "id": 90,
+    "identifier": "shellder",
+    "name": "Shellder",
+    "height": 3,
+    "weight": 40,
+    "order": 112
+  },
+  {
+    "id": 91,
+    "identifier": "cloyster",
+    "name": "Cloyster",
+    "height": 15,
+    "weight": 1325,
+    "order": 113
+  },
+  {
+    "id": 92,
+    "identifier": "gastly",
+    "name": "Gastly",
+    "height": 13,
+    "weight": 1,
+    "order": 114
+  },
+  {
+    "id": 93,
+    "identifier": "haunter",
+    "name": "Haunter",
+    "height": 16,
+    "weight": 1,
+    "order": 115
+  },
+  {
+    "id": 94,
+    "identifier": "gengar",
+    "name": "Gengar",
+    "height": 15,
+    "weight": 405,
+    "order": 116
+  },
+  {
+    "id": 95,
+    "identifier": "onix",
+    "name": "Onix",
+    "height": 88,
+    "weight": 2100,
+    "order": 118
+  },
+  {
+    "id": 96,
+    "identifier": "drowzee",
+    "name": "Drowzee",
+    "height": 10,
+    "weight": 324,
+    "order": 121
+  },
+  {
+    "id": 97,
+    "identifier": "hypno",
+    "name": "Hypno",
+    "height": 16,
+    "weight": 756,
+    "order": 122
+  },
+  {
+    "id": 98,
+    "identifier": "krabby",
+    "name": "Krabby",
+    "height": 4,
+    "weight": 65,
+    "order": 123
+  },
+  {
+    "id": 99,
+    "identifier": "kingler",
+    "name": "Kingler",
+    "height": 13,
+    "weight": 600,
+    "order": 124
+  },
+  {
+    "id": 100,
+    "identifier": "voltorb",
+    "name": "Voltorb",
+    "height": 5,
+    "weight": 104,
+    "order": 125
+  },
+  {
+    "id": 101,
+    "identifier": "electrode",
+    "name": "Electrode",
+    "height": 12,
+    "weight": 666,
+    "order": 126
+  },
+  {
+    "id": 102,
+    "identifier": "exeggcute",
+    "name": "Exeggcute",
+    "height": 4,
+    "weight": 25,
+    "order": 127
+  },
+  {
+    "id": 103,
+    "identifier": "exeggutor",
+    "name": "Exeggutor",
+    "height": 20,
+    "weight": 1200,
+    "order": 128
+  },
+  {
+    "id": 104,
+    "identifier": "cubone",
+    "name": "Cubone",
+    "height": 4,
+    "weight": 65,
+    "order": 129
+  },
+  {
+    "id": 105,
+    "identifier": "marowak",
+    "name": "Marowak",
+    "height": 10,
+    "weight": 450,
+    "order": 130
+  },
+  {
+    "id": 106,
+    "identifier": "hitmonlee",
+    "name": "Hitmonlee",
+    "height": 15,
+    "weight": 498,
+    "order": 132
+  },
+  {
+    "id": 107,
+    "identifier": "hitmonchan",
+    "name": "Hitmonchan",
+    "height": 14,
+    "weight": 502,
+    "order": 133
+  },
+  {
+    "id": 108,
+    "identifier": "lickitung",
+    "name": "Lickitung",
+    "height": 12,
+    "weight": 655,
+    "order": 135
+  },
+  {
+    "id": 109,
+    "identifier": "koffing",
+    "name": "Koffing",
+    "height": 6,
+    "weight": 10,
+    "order": 137
+  },
+  {
+    "id": 110,
+    "identifier": "weezing",
+    "name": "Weezing",
+    "height": 12,
+    "weight": 95,
+    "order": 138
+  },
+  {
+    "id": 111,
+    "identifier": "rhyhorn",
+    "name": "Rhyhorn",
+    "height": 10,
+    "weight": 1150,
+    "order": 139
+  },
+  {
+    "id": 112,
+    "identifier": "rhydon",
+    "name": "Rhydon",
+    "height": 19,
+    "weight": 1200,
+    "order": 140
+  },
+  {
+    "id": 113,
+    "identifier": "chansey",
+    "name": "Chansey",
+    "height": 11,
+    "weight": 346,
+    "order": 143
+  },
+  {
+    "id": 114,
+    "identifier": "tangela",
+    "name": "Tangela",
+    "height": 10,
+    "weight": 350,
+    "order": 145
+  },
+  {
+    "id": 115,
+    "identifier": "kangaskhan",
+    "name": "Kangaskhan",
+    "height": 22,
+    "weight": 800,
+    "order": 147
+  },
+  {
+    "id": 116,
+    "identifier": "horsea",
+    "name": "Horsea",
+    "height": 4,
+    "weight": 80,
+    "order": 149
+  },
+  {
+    "id": 117,
+    "identifier": "seadra",
+    "name": "Seadra",
+    "height": 12,
+    "weight": 250,
+    "order": 150
+  },
+  {
+    "id": 118,
+    "identifier": "goldeen",
+    "name": "Goldeen",
+    "height": 6,
+    "weight": 150,
+    "order": 152
+  },
+  {
+    "id": 119,
+    "identifier": "seaking",
+    "name": "Seaking",
+    "height": 13,
+    "weight": 390,
+    "order": 153
+  },
+  {
+    "id": 120,
+    "identifier": "staryu",
+    "name": "Staryu",
+    "height": 8,
+    "weight": 345,
+    "order": 154
+  },
+  {
+    "id": 121,
+    "identifier": "starmie",
+    "name": "Starmie",
+    "height": 11,
+    "weight": 800,
+    "order": 155
+  },
+  {
+    "id": 122,
+    "identifier": "mr-mime",
+    "name": "Mr Mime",
+    "height": 13,
+    "weight": 545,
+    "order": 157
+  },
+  {
+    "id": 123,
+    "identifier": "scyther",
+    "name": "Scyther",
+    "height": 15,
+    "weight": 560,
+    "order": 158
+  },
+  {
+    "id": 124,
+    "identifier": "jynx",
+    "name": "Jynx",
+    "height": 14,
+    "weight": 406,
+    "order": 162
+  },
+  {
+    "id": 125,
+    "identifier": "electabuzz",
+    "name": "Electabuzz",
+    "height": 11,
+    "weight": 300,
+    "order": 164
+  },
+  {
+    "id": 126,
+    "identifier": "magmar",
+    "name": "Magmar",
+    "height": 13,
+    "weight": 445,
+    "order": 167
+  },
+  {
+    "id": 127,
+    "identifier": "pinsir",
+    "name": "Pinsir",
+    "height": 15,
+    "weight": 550,
+    "order": 169
+  },
+  {
+    "id": 128,
+    "identifier": "tauros",
+    "name": "Tauros",
+    "height": 14,
+    "weight": 884,
+    "order": 171
+  },
+  {
+    "id": 129,
+    "identifier": "magikarp",
+    "name": "Magikarp",
+    "height": 9,
+    "weight": 100,
+    "order": 172
+  },
+  {
+    "id": 130,
+    "identifier": "gyarados",
+    "name": "Gyarados",
+    "height": 65,
+    "weight": 2350,
+    "order": 173
+  },
+  {
+    "id": 131,
+    "identifier": "lapras",
+    "name": "Lapras",
+    "height": 25,
+    "weight": 2200,
+    "order": 175
+  },
+  {
+    "id": 132,
+    "identifier": "ditto",
+    "name": "Ditto",
+    "height": 3,
+    "weight": 40,
+    "order": 176
+  },
+  {
+    "id": 133,
+    "identifier": "eevee",
+    "name": "Eevee",
+    "height": 3,
+    "weight": 65,
+    "order": 177
+  },
+  {
+    "id": 134,
+    "identifier": "vaporeon",
+    "name": "Vaporeon",
+    "height": 10,
+    "weight": 290,
+    "order": 178
+  },
+  {
+    "id": 135,
+    "identifier": "jolteon",
+    "name": "Jolteon",
+    "height": 8,
+    "weight": 245,
+    "order": 179
+  },
+  {
+    "id": 136,
+    "identifier": "flareon",
+    "name": "Flareon",
+    "height": 9,
+    "weight": 250,
+    "order": 180
+  },
+  {
+    "id": 137,
+    "identifier": "porygon",
+    "name": "Porygon",
+    "height": 8,
+    "weight": 365,
+    "order": 186
+  },
+  {
+    "id": 138,
+    "identifier": "omanyte",
+    "name": "Omanyte",
+    "height": 4,
+    "weight": 75,
+    "order": 189
+  },
+  {
+    "id": 139,
+    "identifier": "omastar",
+    "name": "Omastar",
+    "height": 10,
+    "weight": 350,
+    "order": 190
+  },
+  {
+    "id": 140,
+    "identifier": "kabuto",
+    "name": "Kabuto",
+    "height": 5,
+    "weight": 115,
+    "order": 191
+  },
+  {
+    "id": 141,
+    "identifier": "kabutops",
+    "name": "Kabutops",
+    "height": 13,
+    "weight": 405,
+    "order": 192
+  },
+  {
+    "id": 142,
+    "identifier": "aerodactyl",
+    "name": "Aerodactyl",
+    "height": 18,
+    "weight": 590,
+    "order": 193
+  },
+  {
+    "id": 143,
+    "identifier": "snorlax",
+    "name": "Snorlax",
+    "height": 21,
+    "weight": 4600,
+    "order": 196
+  },
+  {
+    "id": 144,
+    "identifier": "articuno",
+    "name": "Articuno",
+    "height": 17,
+    "weight": 554,
+    "order": 197
+  },
+  {
+    "id": 145,
+    "identifier": "zapdos",
+    "name": "Zapdos",
+    "height": 16,
+    "weight": 526,
+    "order": 198
+  },
+  {
+    "id": 146,
+    "identifier": "moltres",
+    "name": "Moltres",
+    "height": 20,
+    "weight": 600,
+    "order": 199
+  },
+  {
+    "id": 147,
+    "identifier": "dratini",
+    "name": "Dratini",
+    "height": 18,
+    "weight": 33,
+    "order": 200
+  },
+  {
+    "id": 148,
+    "identifier": "dragonair",
+    "name": "Dragonair",
+    "height": 40,
+    "weight": 165,
+    "order": 201
+  },
+  {
+    "id": 149,
+    "identifier": "dragonite",
+    "name": "Dragonite",
+    "height": 22,
+    "weight": 2100,
+    "order": 202
+  },
+  {
+    "id": 150,
+    "identifier": "mewtwo",
+    "name": "Mewtwo",
+    "height": 20,
+    "weight": 1220,
+    "order": 203
+  },
+  {
+    "id": 151,
+    "identifier": "mew",
+    "name": "Mew",
+    "height": 4,
+    "weight": 40,
+    "order": 206
+  },
+  {
+    "id": 152,
+    "identifier": "chikorita",
+    "name": "Chikorita",
+    "height": 9,
+    "weight": 64,
+    "order": 207
+  },
+  {
+    "id": 153,
+    "identifier": "bayleef",
+    "name": "Bayleef",
+    "height": 12,
+    "weight": 158,
+    "order": 208
+  },
+  {
+    "id": 154,
+    "identifier": "meganium",
+    "name": "Meganium",
+    "height": 18,
+    "weight": 1005,
+    "order": 209
+  },
+  {
+    "id": 155,
+    "identifier": "cyndaquil",
+    "name": "Cyndaquil",
+    "height": 5,
+    "weight": 79,
+    "order": 210
+  },
+  {
+    "id": 156,
+    "identifier": "quilava",
+    "name": "Quilava",
+    "height": 9,
+    "weight": 190,
+    "order": 211
+  },
+  {
+    "id": 157,
+    "identifier": "typhlosion",
+    "name": "Typhlosion",
+    "height": 17,
+    "weight": 795,
+    "order": 212
+  },
+  {
+    "id": 158,
+    "identifier": "totodile",
+    "name": "Totodile",
+    "height": 6,
+    "weight": 95,
+    "order": 213
+  },
+  {
+    "id": 159,
+    "identifier": "croconaw",
+    "name": "Croconaw",
+    "height": 11,
+    "weight": 250,
+    "order": 214
+  },
+  {
+    "id": 160,
+    "identifier": "feraligatr",
+    "name": "Feraligatr",
+    "height": 23,
+    "weight": 888,
+    "order": 215
+  },
+  {
+    "id": 161,
+    "identifier": "sentret",
+    "name": "Sentret",
+    "height": 8,
+    "weight": 60,
+    "order": 216
+  },
+  {
+    "id": 162,
+    "identifier": "furret",
+    "name": "Furret",
+    "height": 18,
+    "weight": 325,
+    "order": 217
+  },
+  {
+    "id": 163,
+    "identifier": "hoothoot",
+    "name": "Hoothoot",
+    "height": 7,
+    "weight": 212,
+    "order": 218
+  },
+  {
+    "id": 164,
+    "identifier": "noctowl",
+    "name": "Noctowl",
+    "height": 16,
+    "weight": 408,
+    "order": 219
+  },
+  {
+    "id": 165,
+    "identifier": "ledyba",
+    "name": "Ledyba",
+    "height": 10,
+    "weight": 108,
+    "order": 220
+  },
+  {
+    "id": 166,
+    "identifier": "ledian",
+    "name": "Ledian",
+    "height": 14,
+    "weight": 356,
+    "order": 221
+  },
+  {
+    "id": 167,
+    "identifier": "spinarak",
+    "name": "Spinarak",
+    "height": 5,
+    "weight": 85,
+    "order": 222
+  },
+  {
+    "id": 168,
+    "identifier": "ariados",
+    "name": "Ariados",
+    "height": 11,
+    "weight": 335,
+    "order": 223
+  },
+  {
+    "id": 169,
+    "identifier": "crobat",
+    "name": "Crobat",
+    "height": 18,
+    "weight": 750,
+    "order": 58
+  },
+  {
+    "id": 170,
+    "identifier": "chinchou",
+    "name": "Chinchou",
+    "height": 5,
+    "weight": 120,
+    "order": 224
+  },
+  {
+    "id": 171,
+    "identifier": "lanturn",
+    "name": "Lanturn",
+    "height": 12,
+    "weight": 225,
+    "order": 225
+  },
+  {
+    "id": 172,
+    "identifier": "pichu",
+    "name": "Pichu",
+    "height": 3,
+    "weight": 20,
+    "order": 31
+  },
+  {
+    "id": 173,
+    "identifier": "cleffa",
+    "name": "Cleffa",
+    "height": 3,
+    "weight": 30,
+    "order": 48
+  },
+  {
+    "id": 174,
+    "identifier": "igglybuff",
+    "name": "Igglybuff",
+    "height": 3,
+    "weight": 10,
+    "order": 53
+  },
+  {
+    "id": 175,
+    "identifier": "togepi",
+    "name": "Togepi",
+    "height": 3,
+    "weight": 15,
+    "order": 226
+  },
+  {
+    "id": 176,
+    "identifier": "togetic",
+    "name": "Togetic",
+    "height": 6,
+    "weight": 32,
+    "order": 227
+  },
+  {
+    "id": 177,
+    "identifier": "natu",
+    "name": "Natu",
+    "height": 2,
+    "weight": 20,
+    "order": 229
+  },
+  {
+    "id": 178,
+    "identifier": "xatu",
+    "name": "Xatu",
+    "height": 15,
+    "weight": 150,
+    "order": 230
+  },
+  {
+    "id": 179,
+    "identifier": "mareep",
+    "name": "Mareep",
+    "height": 6,
+    "weight": 78,
+    "order": 231
+  },
+  {
+    "id": 180,
+    "identifier": "flaaffy",
+    "name": "Flaaffy",
+    "height": 8,
+    "weight": 133,
+    "order": 232
+  },
+  {
+    "id": 181,
+    "identifier": "ampharos",
+    "name": "Ampharos",
+    "height": 14,
+    "weight": 615,
+    "order": 233
+  },
+  {
+    "id": 182,
+    "identifier": "bellossom",
+    "name": "Bellossom",
+    "height": 4,
+    "weight": 58,
+    "order": 62
+  },
+  {
+    "id": 183,
+    "identifier": "marill",
+    "name": "Marill",
+    "height": 4,
+    "weight": 85,
+    "order": 236
+  },
+  {
+    "id": 184,
+    "identifier": "azumarill",
+    "name": "Azumarill",
+    "height": 8,
+    "weight": 285,
+    "order": 237
+  },
+  {
+    "id": 185,
+    "identifier": "sudowoodo",
+    "name": "Sudowoodo",
+    "height": 12,
+    "weight": 380,
+    "order": 239
+  },
+  {
+    "id": 186,
+    "identifier": "politoed",
+    "name": "Politoed",
+    "height": 11,
+    "weight": 339,
+    "order": 80
+  },
+  {
+    "id": 187,
+    "identifier": "hoppip",
+    "name": "Hoppip",
+    "height": 4,
+    "weight": 5,
+    "order": 240
+  },
+  {
+    "id": 188,
+    "identifier": "skiploom",
+    "name": "Skiploom",
+    "height": 6,
+    "weight": 10,
+    "order": 241
+  },
+  {
+    "id": 189,
+    "identifier": "jumpluff",
+    "name": "Jumpluff",
+    "height": 8,
+    "weight": 30,
+    "order": 242
+  },
+  {
+    "id": 190,
+    "identifier": "aipom",
+    "name": "Aipom",
+    "height": 8,
+    "weight": 115,
+    "order": 243
+  },
+  {
+    "id": 191,
+    "identifier": "sunkern",
+    "name": "Sunkern",
+    "height": 3,
+    "weight": 18,
+    "order": 245
+  },
+  {
+    "id": 192,
+    "identifier": "sunflora",
+    "name": "Sunflora",
+    "height": 8,
+    "weight": 85,
+    "order": 246
+  },
+  {
+    "id": 193,
+    "identifier": "yanma",
+    "name": "Yanma",
+    "height": 12,
+    "weight": 380,
+    "order": 247
+  },
+  {
+    "id": 194,
+    "identifier": "wooper",
+    "name": "Wooper",
+    "height": 4,
+    "weight": 85,
+    "order": 249
+  },
+  {
+    "id": 195,
+    "identifier": "quagsire",
+    "name": "Quagsire",
+    "height": 14,
+    "weight": 750,
+    "order": 250
+  },
+  {
+    "id": 196,
+    "identifier": "espeon",
+    "name": "Espeon",
+    "height": 9,
+    "weight": 265,
+    "order": 181
+  },
+  {
+    "id": 197,
+    "identifier": "umbreon",
+    "name": "Umbreon",
+    "height": 10,
+    "weight": 270,
+    "order": 182
+  },
+  {
+    "id": 198,
+    "identifier": "murkrow",
+    "name": "Murkrow",
+    "height": 5,
+    "weight": 21,
+    "order": 251
+  },
+  {
+    "id": 199,
+    "identifier": "slowking",
+    "name": "Slowking",
+    "height": 20,
+    "weight": 795,
+    "order": 101
+  },
+  {
+    "id": 200,
+    "identifier": "misdreavus",
+    "name": "Misdreavus",
+    "height": 7,
+    "weight": 10,
+    "order": 253
+  },
+  {
+    "id": 201,
+    "identifier": "unown",
+    "name": "Unown",
+    "height": 5,
+    "weight": 50,
+    "order": 255
+  },
+  {
+    "id": 202,
+    "identifier": "wobbuffet",
+    "name": "Wobbuffet",
+    "height": 13,
+    "weight": 285,
+    "order": 257
+  },
+  {
+    "id": 203,
+    "identifier": "girafarig",
+    "name": "Girafarig",
+    "height": 15,
+    "weight": 415,
+    "order": 258
+  },
+  {
+    "id": 204,
+    "identifier": "pineco",
+    "name": "Pineco",
+    "height": 6,
+    "weight": 72,
+    "order": 259
+  },
+  {
+    "id": 205,
+    "identifier": "forretress",
+    "name": "Forretress",
+    "height": 12,
+    "weight": 1258,
+    "order": 260
+  },
+  {
+    "id": 206,
+    "identifier": "dunsparce",
+    "name": "Dunsparce",
+    "height": 15,
+    "weight": 140,
+    "order": 261
+  },
+  {
+    "id": 207,
+    "identifier": "gligar",
+    "name": "Gligar",
+    "height": 11,
+    "weight": 648,
+    "order": 262
+  },
+  {
+    "id": 208,
+    "identifier": "steelix",
+    "name": "Steelix",
+    "height": 92,
+    "weight": 4000,
+    "order": 119
+  },
+  {
+    "id": 209,
+    "identifier": "snubbull",
+    "name": "Snubbull",
+    "height": 6,
+    "weight": 78,
+    "order": 264
+  },
+  {
+    "id": 210,
+    "identifier": "granbull",
+    "name": "Granbull",
+    "height": 14,
+    "weight": 487,
+    "order": 265
+  },
+  {
+    "id": 211,
+    "identifier": "qwilfish",
+    "name": "Qwilfish",
+    "height": 5,
+    "weight": 39,
+    "order": 266
+  },
+  {
+    "id": 212,
+    "identifier": "scizor",
+    "name": "Scizor",
+    "height": 18,
+    "weight": 1180,
+    "order": 159
+  },
+  {
+    "id": 213,
+    "identifier": "shuckle",
+    "name": "Shuckle",
+    "height": 6,
+    "weight": 205,
+    "order": 267
+  },
+  {
+    "id": 214,
+    "identifier": "heracross",
+    "name": "Heracross",
+    "height": 15,
+    "weight": 540,
+    "order": 268
+  },
+  {
+    "id": 215,
+    "identifier": "sneasel",
+    "name": "Sneasel",
+    "height": 9,
+    "weight": 280,
+    "order": 270
+  },
+  {
+    "id": 216,
+    "identifier": "teddiursa",
+    "name": "Teddiursa",
+    "height": 6,
+    "weight": 88,
+    "order": 272
+  },
+  {
+    "id": 217,
+    "identifier": "ursaring",
+    "name": "Ursaring",
+    "height": 18,
+    "weight": 1258,
+    "order": 273
+  },
+  {
+    "id": 218,
+    "identifier": "slugma",
+    "name": "Slugma",
+    "height": 7,
+    "weight": 350,
+    "order": 274
+  },
+  {
+    "id": 219,
+    "identifier": "magcargo",
+    "name": "Magcargo",
+    "height": 8,
+    "weight": 550,
+    "order": 275
+  },
+  {
+    "id": 220,
+    "identifier": "swinub",
+    "name": "Swinub",
+    "height": 4,
+    "weight": 65,
+    "order": 276
+  },
+  {
+    "id": 221,
+    "identifier": "piloswine",
+    "name": "Piloswine",
+    "height": 11,
+    "weight": 558,
+    "order": 277
+  },
+  {
+    "id": 222,
+    "identifier": "corsola",
+    "name": "Corsola",
+    "height": 6,
+    "weight": 50,
+    "order": 279
+  },
+  {
+    "id": 223,
+    "identifier": "remoraid",
+    "name": "Remoraid",
+    "height": 6,
+    "weight": 120,
+    "order": 280
+  },
+  {
+    "id": 224,
+    "identifier": "octillery",
+    "name": "Octillery",
+    "height": 9,
+    "weight": 285,
+    "order": 281
+  },
+  {
+    "id": 225,
+    "identifier": "delibird",
+    "name": "Delibird",
+    "height": 9,
+    "weight": 160,
+    "order": 282
+  },
+  {
+    "id": 226,
+    "identifier": "mantine",
+    "name": "Mantine",
+    "height": 21,
+    "weight": 2200,
+    "order": 284
+  },
+  {
+    "id": 227,
+    "identifier": "skarmory",
+    "name": "Skarmory",
+    "height": 17,
+    "weight": 505,
+    "order": 285
+  },
+  {
+    "id": 228,
+    "identifier": "houndour",
+    "name": "Houndour",
+    "height": 6,
+    "weight": 108,
+    "order": 286
+  },
+  {
+    "id": 229,
+    "identifier": "houndoom",
+    "name": "Houndoom",
+    "height": 14,
+    "weight": 350,
+    "order": 287
+  },
+  {
+    "id": 230,
+    "identifier": "kingdra",
+    "name": "Kingdra",
+    "height": 18,
+    "weight": 1520,
+    "order": 151
+  },
+  {
+    "id": 231,
+    "identifier": "phanpy",
+    "name": "Phanpy",
+    "height": 5,
+    "weight": 335,
+    "order": 289
+  },
+  {
+    "id": 232,
+    "identifier": "donphan",
+    "name": "Donphan",
+    "height": 11,
+    "weight": 1200,
+    "order": 290
+  },
+  {
+    "id": 233,
+    "identifier": "porygon2",
+    "name": "Porygon2",
+    "height": 6,
+    "weight": 325,
+    "order": 187
+  },
+  {
+    "id": 234,
+    "identifier": "stantler",
+    "name": "Stantler",
+    "height": 14,
+    "weight": 712,
+    "order": 291
+  },
+  {
+    "id": 235,
+    "identifier": "smeargle",
+    "name": "Smeargle",
+    "height": 12,
+    "weight": 580,
+    "order": 292
+  },
+  {
+    "id": 236,
+    "identifier": "tyrogue",
+    "name": "Tyrogue",
+    "height": 7,
+    "weight": 210,
+    "order": 131
+  },
+  {
+    "id": 237,
+    "identifier": "hitmontop",
+    "name": "Hitmontop",
+    "height": 14,
+    "weight": 480,
+    "order": 134
+  },
+  {
+    "id": 238,
+    "identifier": "smoochum",
+    "name": "Smoochum",
+    "height": 4,
+    "weight": 60,
+    "order": 161
+  },
+  {
+    "id": 239,
+    "identifier": "elekid",
+    "name": "Elekid",
+    "height": 6,
+    "weight": 235,
+    "order": 163
+  },
+  {
+    "id": 240,
+    "identifier": "magby",
+    "name": "Magby",
+    "height": 7,
+    "weight": 214,
+    "order": 166
+  },
+  {
+    "id": 241,
+    "identifier": "miltank",
+    "name": "Miltank",
+    "height": 12,
+    "weight": 755,
+    "order": 293
+  },
+  {
+    "id": 242,
+    "identifier": "blissey",
+    "name": "Blissey",
+    "height": 15,
+    "weight": 468,
+    "order": 144
+  },
+  {
+    "id": 243,
+    "identifier": "raikou",
+    "name": "Raikou",
+    "height": 19,
+    "weight": 1780,
+    "order": 294
+  },
+  {
+    "id": 244,
+    "identifier": "entei",
+    "name": "Entei",
+    "height": 21,
+    "weight": 1980,
+    "order": 295
+  },
+  {
+    "id": 245,
+    "identifier": "suicune",
+    "name": "Suicune",
+    "height": 20,
+    "weight": 1870,
+    "order": 296
+  },
+  {
+    "id": 246,
+    "identifier": "larvitar",
+    "name": "Larvitar",
+    "height": 6,
+    "weight": 720,
+    "order": 297
+  },
+  {
+    "id": 247,
+    "identifier": "pupitar",
+    "name": "Pupitar",
+    "height": 12,
+    "weight": 1520,
+    "order": 298
+  },
+  {
+    "id": 248,
+    "identifier": "tyranitar",
+    "name": "Tyranitar",
+    "height": 20,
+    "weight": 2020,
+    "order": 299
+  },
+  {
+    "id": 249,
+    "identifier": "lugia",
+    "name": "Lugia",
+    "height": 52,
+    "weight": 2160,
+    "order": 301
+  },
+  {
+    "id": 250,
+    "identifier": "ho-oh",
+    "name": "Ho Oh",
+    "height": 38,
+    "weight": 1990,
+    "order": 302
+  },
+  {
+    "id": 251,
+    "identifier": "celebi",
+    "name": "Celebi",
+    "height": 6,
+    "weight": 50,
+    "order": 303
+  },
+  {
+    "id": 252,
+    "identifier": "treecko",
+    "name": "Treecko",
+    "height": 5,
+    "weight": 50,
+    "order": 304
+  },
+  {
+    "id": 253,
+    "identifier": "grovyle",
+    "name": "Grovyle",
+    "height": 9,
+    "weight": 216,
+    "order": 305
+  },
+  {
+    "id": 254,
+    "identifier": "sceptile",
+    "name": "Sceptile",
+    "height": 17,
+    "weight": 522,
+    "order": 306
+  },
+  {
+    "id": 255,
+    "identifier": "torchic",
+    "name": "Torchic",
+    "height": 4,
+    "weight": 25,
+    "order": 308
+  },
+  {
+    "id": 256,
+    "identifier": "combusken",
+    "name": "Combusken",
+    "height": 9,
+    "weight": 195,
+    "order": 309
+  },
+  {
+    "id": 257,
+    "identifier": "blaziken",
+    "name": "Blaziken",
+    "height": 19,
+    "weight": 520,
+    "order": 310
+  },
+  {
+    "id": 258,
+    "identifier": "mudkip",
+    "name": "Mudkip",
+    "height": 4,
+    "weight": 76,
+    "order": 312
+  },
+  {
+    "id": 259,
+    "identifier": "marshtomp",
+    "name": "Marshtomp",
+    "height": 7,
+    "weight": 280,
+    "order": 313
+  },
+  {
+    "id": 260,
+    "identifier": "swampert",
+    "name": "Swampert",
+    "height": 15,
+    "weight": 819,
+    "order": 314
+  },
+  {
+    "id": 261,
+    "identifier": "poochyena",
+    "name": "Poochyena",
+    "height": 5,
+    "weight": 136,
+    "order": 316
+  },
+  {
+    "id": 262,
+    "identifier": "mightyena",
+    "name": "Mightyena",
+    "height": 10,
+    "weight": 370,
+    "order": 317
+  },
+  {
+    "id": 263,
+    "identifier": "zigzagoon",
+    "name": "Zigzagoon",
+    "height": 4,
+    "weight": 175,
+    "order": 318
+  },
+  {
+    "id": 264,
+    "identifier": "linoone",
+    "name": "Linoone",
+    "height": 5,
+    "weight": 325,
+    "order": 319
+  },
+  {
+    "id": 265,
+    "identifier": "wurmple",
+    "name": "Wurmple",
+    "height": 3,
+    "weight": 36,
+    "order": 320
+  },
+  {
+    "id": 266,
+    "identifier": "silcoon",
+    "name": "Silcoon",
+    "height": 6,
+    "weight": 100,
+    "order": 321
+  },
+  {
+    "id": 267,
+    "identifier": "beautifly",
+    "name": "Beautifly",
+    "height": 10,
+    "weight": 284,
+    "order": 322
+  },
+  {
+    "id": 268,
+    "identifier": "cascoon",
+    "name": "Cascoon",
+    "height": 7,
+    "weight": 115,
+    "order": 323
+  },
+  {
+    "id": 269,
+    "identifier": "dustox",
+    "name": "Dustox",
+    "height": 12,
+    "weight": 316,
+    "order": 324
+  },
+  {
+    "id": 270,
+    "identifier": "lotad",
+    "name": "Lotad",
+    "height": 5,
+    "weight": 26,
+    "order": 325
+  },
+  {
+    "id": 271,
+    "identifier": "lombre",
+    "name": "Lombre",
+    "height": 12,
+    "weight": 325,
+    "order": 326
+  },
+  {
+    "id": 272,
+    "identifier": "ludicolo",
+    "name": "Ludicolo",
+    "height": 15,
+    "weight": 550,
+    "order": 327
+  },
+  {
+    "id": 273,
+    "identifier": "seedot",
+    "name": "Seedot",
+    "height": 5,
+    "weight": 40,
+    "order": 328
+  },
+  {
+    "id": 274,
+    "identifier": "nuzleaf",
+    "name": "Nuzleaf",
+    "height": 10,
+    "weight": 280,
+    "order": 329
+  },
+  {
+    "id": 275,
+    "identifier": "shiftry",
+    "name": "Shiftry",
+    "height": 13,
+    "weight": 596,
+    "order": 330
+  },
+  {
+    "id": 276,
+    "identifier": "taillow",
+    "name": "Taillow",
+    "height": 3,
+    "weight": 23,
+    "order": 331
+  },
+  {
+    "id": 277,
+    "identifier": "swellow",
+    "name": "Swellow",
+    "height": 7,
+    "weight": 198,
+    "order": 332
+  },
+  {
+    "id": 278,
+    "identifier": "wingull",
+    "name": "Wingull",
+    "height": 6,
+    "weight": 95,
+    "order": 333
+  },
+  {
+    "id": 279,
+    "identifier": "pelipper",
+    "name": "Pelipper",
+    "height": 12,
+    "weight": 280,
+    "order": 334
+  },
+  {
+    "id": 280,
+    "identifier": "ralts",
+    "name": "Ralts",
+    "height": 4,
+    "weight": 66,
+    "order": 335
+  },
+  {
+    "id": 281,
+    "identifier": "kirlia",
+    "name": "Kirlia",
+    "height": 8,
+    "weight": 202,
+    "order": 336
+  },
+  {
+    "id": 282,
+    "identifier": "gardevoir",
+    "name": "Gardevoir",
+    "height": 16,
+    "weight": 484,
+    "order": 337
+  },
+  {
+    "id": 283,
+    "identifier": "surskit",
+    "name": "Surskit",
+    "height": 5,
+    "weight": 17,
+    "order": 341
+  },
+  {
+    "id": 284,
+    "identifier": "masquerain",
+    "name": "Masquerain",
+    "height": 8,
+    "weight": 36,
+    "order": 342
+  },
+  {
+    "id": 285,
+    "identifier": "shroomish",
+    "name": "Shroomish",
+    "height": 4,
+    "weight": 45,
+    "order": 343
+  },
+  {
+    "id": 286,
+    "identifier": "breloom",
+    "name": "Breloom",
+    "height": 12,
+    "weight": 392,
+    "order": 344
+  },
+  {
+    "id": 287,
+    "identifier": "slakoth",
+    "name": "Slakoth",
+    "height": 8,
+    "weight": 240,
+    "order": 345
+  },
+  {
+    "id": 288,
+    "identifier": "vigoroth",
+    "name": "Vigoroth",
+    "height": 14,
+    "weight": 465,
+    "order": 346
+  },
+  {
+    "id": 289,
+    "identifier": "slaking",
+    "name": "Slaking",
+    "height": 20,
+    "weight": 1305,
+    "order": 347
+  },
+  {
+    "id": 290,
+    "identifier": "nincada",
+    "name": "Nincada",
+    "height": 5,
+    "weight": 55,
+    "order": 348
+  },
+  {
+    "id": 291,
+    "identifier": "ninjask",
+    "name": "Ninjask",
+    "height": 8,
+    "weight": 120,
+    "order": 349
+  },
+  {
+    "id": 292,
+    "identifier": "shedinja",
+    "name": "Shedinja",
+    "height": 8,
+    "weight": 12,
+    "order": 350
+  },
+  {
+    "id": 293,
+    "identifier": "whismur",
+    "name": "Whismur",
+    "height": 6,
+    "weight": 163,
+    "order": 351
+  },
+  {
+    "id": 294,
+    "identifier": "loudred",
+    "name": "Loudred",
+    "height": 10,
+    "weight": 405,
+    "order": 352
+  },
+  {
+    "id": 295,
+    "identifier": "exploud",
+    "name": "Exploud",
+    "height": 15,
+    "weight": 840,
+    "order": 353
+  },
+  {
+    "id": 296,
+    "identifier": "makuhita",
+    "name": "Makuhita",
+    "height": 10,
+    "weight": 864,
+    "order": 354
+  },
+  {
+    "id": 297,
+    "identifier": "hariyama",
+    "name": "Hariyama",
+    "height": 23,
+    "weight": 2538,
+    "order": 355
+  },
+  {
+    "id": 298,
+    "identifier": "azurill",
+    "name": "Azurill",
+    "height": 2,
+    "weight": 20,
+    "order": 235
+  },
+  {
+    "id": 299,
+    "identifier": "nosepass",
+    "name": "Nosepass",
+    "height": 10,
+    "weight": 970,
+    "order": 356
+  },
+  {
+    "id": 300,
+    "identifier": "skitty",
+    "name": "Skitty",
+    "height": 6,
+    "weight": 110,
+    "order": 358
+  },
+  {
+    "id": 301,
+    "identifier": "delcatty",
+    "name": "Delcatty",
+    "height": 11,
+    "weight": 326,
+    "order": 359
+  },
+  {
+    "id": 302,
+    "identifier": "sableye",
+    "name": "Sableye",
+    "height": 5,
+    "weight": 110,
+    "order": 360
+  },
+  {
+    "id": 303,
+    "identifier": "mawile",
+    "name": "Mawile",
+    "height": 6,
+    "weight": 115,
+    "order": 362
+  },
+  {
+    "id": 304,
+    "identifier": "aron",
+    "name": "Aron",
+    "height": 4,
+    "weight": 600,
+    "order": 364
+  },
+  {
+    "id": 305,
+    "identifier": "lairon",
+    "name": "Lairon",
+    "height": 9,
+    "weight": 1200,
+    "order": 365
+  },
+  {
+    "id": 306,
+    "identifier": "aggron",
+    "name": "Aggron",
+    "height": 21,
+    "weight": 3600,
+    "order": 366
+  },
+  {
+    "id": 307,
+    "identifier": "meditite",
+    "name": "Meditite",
+    "height": 6,
+    "weight": 112,
+    "order": 368
+  },
+  {
+    "id": 308,
+    "identifier": "medicham",
+    "name": "Medicham",
+    "height": 13,
+    "weight": 315,
+    "order": 369
+  },
+  {
+    "id": 309,
+    "identifier": "electrike",
+    "name": "Electrike",
+    "height": 6,
+    "weight": 152,
+    "order": 371
+  },
+  {
+    "id": 310,
+    "identifier": "manectric",
+    "name": "Manectric",
+    "height": 15,
+    "weight": 402,
+    "order": 372
+  },
+  {
+    "id": 311,
+    "identifier": "plusle",
+    "name": "Plusle",
+    "height": 4,
+    "weight": 42,
+    "order": 374
+  },
+  {
+    "id": 312,
+    "identifier": "minun",
+    "name": "Minun",
+    "height": 4,
+    "weight": 42,
+    "order": 375
+  },
+  {
+    "id": 313,
+    "identifier": "volbeat",
+    "name": "Volbeat",
+    "height": 7,
+    "weight": 177,
+    "order": 376
+  },
+  {
+    "id": 314,
+    "identifier": "illumise",
+    "name": "Illumise",
+    "height": 6,
+    "weight": 177,
+    "order": 377
+  },
+  {
+    "id": 315,
+    "identifier": "roselia",
+    "name": "Roselia",
+    "height": 3,
+    "weight": 20,
+    "order": 379
+  },
+  {
+    "id": 316,
+    "identifier": "gulpin",
+    "name": "Gulpin",
+    "height": 4,
+    "weight": 103,
+    "order": 381
+  },
+  {
+    "id": 317,
+    "identifier": "swalot",
+    "name": "Swalot",
+    "height": 17,
+    "weight": 800,
+    "order": 382
+  },
+  {
+    "id": 318,
+    "identifier": "carvanha",
+    "name": "Carvanha",
+    "height": 8,
+    "weight": 208,
+    "order": 383
+  },
+  {
+    "id": 319,
+    "identifier": "sharpedo",
+    "name": "Sharpedo",
+    "height": 18,
+    "weight": 888,
+    "order": 384
+  },
+  {
+    "id": 320,
+    "identifier": "wailmer",
+    "name": "Wailmer",
+    "height": 20,
+    "weight": 1300,
+    "order": 386
+  },
+  {
+    "id": 321,
+    "identifier": "wailord",
+    "name": "Wailord",
+    "height": 145,
+    "weight": 3980,
+    "order": 387
+  },
+  {
+    "id": 322,
+    "identifier": "numel",
+    "name": "Numel",
+    "height": 7,
+    "weight": 240,
+    "order": 388
+  },
+  {
+    "id": 323,
+    "identifier": "camerupt",
+    "name": "Camerupt",
+    "height": 19,
+    "weight": 2200,
+    "order": 389
+  },
+  {
+    "id": 324,
+    "identifier": "torkoal",
+    "name": "Torkoal",
+    "height": 5,
+    "weight": 804,
+    "order": 391
+  },
+  {
+    "id": 325,
+    "identifier": "spoink",
+    "name": "Spoink",
+    "height": 7,
+    "weight": 306,
+    "order": 392
+  },
+  {
+    "id": 326,
+    "identifier": "grumpig",
+    "name": "Grumpig",
+    "height": 9,
+    "weight": 715,
+    "order": 393
+  },
+  {
+    "id": 327,
+    "identifier": "spinda",
+    "name": "Spinda",
+    "height": 11,
+    "weight": 50,
+    "order": 394
+  },
+  {
+    "id": 328,
+    "identifier": "trapinch",
+    "name": "Trapinch",
+    "height": 7,
+    "weight": 150,
+    "order": 395
+  },
+  {
+    "id": 329,
+    "identifier": "vibrava",
+    "name": "Vibrava",
+    "height": 11,
+    "weight": 153,
+    "order": 396
+  },
+  {
+    "id": 330,
+    "identifier": "flygon",
+    "name": "Flygon",
+    "height": 20,
+    "weight": 820,
+    "order": 397
+  },
+  {
+    "id": 331,
+    "identifier": "cacnea",
+    "name": "Cacnea",
+    "height": 4,
+    "weight": 513,
+    "order": 398
+  },
+  {
+    "id": 332,
+    "identifier": "cacturne",
+    "name": "Cacturne",
+    "height": 13,
+    "weight": 774,
+    "order": 399
+  },
+  {
+    "id": 333,
+    "identifier": "swablu",
+    "name": "Swablu",
+    "height": 4,
+    "weight": 12,
+    "order": 400
+  },
+  {
+    "id": 334,
+    "identifier": "altaria",
+    "name": "Altaria",
+    "height": 11,
+    "weight": 206,
+    "order": 401
+  },
+  {
+    "id": 335,
+    "identifier": "zangoose",
+    "name": "Zangoose",
+    "height": 13,
+    "weight": 403,
+    "order": 403
+  },
+  {
+    "id": 336,
+    "identifier": "seviper",
+    "name": "Seviper",
+    "height": 27,
+    "weight": 525,
+    "order": 404
+  },
+  {
+    "id": 337,
+    "identifier": "lunatone",
+    "name": "Lunatone",
+    "height": 10,
+    "weight": 1680,
+    "order": 405
+  },
+  {
+    "id": 338,
+    "identifier": "solrock",
+    "name": "Solrock",
+    "height": 12,
+    "weight": 1540,
+    "order": 406
+  },
+  {
+    "id": 339,
+    "identifier": "barboach",
+    "name": "Barboach",
+    "height": 4,
+    "weight": 19,
+    "order": 407
+  },
+  {
+    "id": 340,
+    "identifier": "whiscash",
+    "name": "Whiscash",
+    "height": 9,
+    "weight": 236,
+    "order": 408
+  },
+  {
+    "id": 341,
+    "identifier": "corphish",
+    "name": "Corphish",
+    "height": 6,
+    "weight": 115,
+    "order": 409
+  },
+  {
+    "id": 342,
+    "identifier": "crawdaunt",
+    "name": "Crawdaunt",
+    "height": 11,
+    "weight": 328,
+    "order": 410
+  },
+  {
+    "id": 343,
+    "identifier": "baltoy",
+    "name": "Baltoy",
+    "height": 5,
+    "weight": 215,
+    "order": 411
+  },
+  {
+    "id": 344,
+    "identifier": "claydol",
+    "name": "Claydol",
+    "height": 15,
+    "weight": 1080,
+    "order": 412
+  },
+  {
+    "id": 345,
+    "identifier": "lileep",
+    "name": "Lileep",
+    "height": 10,
+    "weight": 238,
+    "order": 413
+  },
+  {
+    "id": 346,
+    "identifier": "cradily",
+    "name": "Cradily",
+    "height": 15,
+    "weight": 604,
+    "order": 414
+  },
+  {
+    "id": 347,
+    "identifier": "anorith",
+    "name": "Anorith",
+    "height": 7,
+    "weight": 125,
+    "order": 415
+  },
+  {
+    "id": 348,
+    "identifier": "armaldo",
+    "name": "Armaldo",
+    "height": 15,
+    "weight": 682,
+    "order": 416
+  },
+  {
+    "id": 349,
+    "identifier": "feebas",
+    "name": "Feebas",
+    "height": 6,
+    "weight": 74,
+    "order": 417
+  },
+  {
+    "id": 350,
+    "identifier": "milotic",
+    "name": "Milotic",
+    "height": 62,
+    "weight": 1620,
+    "order": 418
+  },
+  {
+    "id": 351,
+    "identifier": "castform",
+    "name": "Castform",
+    "height": 3,
+    "weight": 8,
+    "order": 419
+  },
+  {
+    "id": 352,
+    "identifier": "kecleon",
+    "name": "Kecleon",
+    "height": 10,
+    "weight": 220,
+    "order": 423
+  },
+  {
+    "id": 353,
+    "identifier": "shuppet",
+    "name": "Shuppet",
+    "height": 6,
+    "weight": 23,
+    "order": 424
+  },
+  {
+    "id": 354,
+    "identifier": "banette",
+    "name": "Banette",
+    "height": 11,
+    "weight": 125,
+    "order": 425
+  },
+  {
+    "id": 355,
+    "identifier": "duskull",
+    "name": "Duskull",
+    "height": 8,
+    "weight": 150,
+    "order": 427
+  },
+  {
+    "id": 356,
+    "identifier": "dusclops",
+    "name": "Dusclops",
+    "height": 16,
+    "weight": 306,
+    "order": 428
+  },
+  {
+    "id": 357,
+    "identifier": "tropius",
+    "name": "Tropius",
+    "height": 20,
+    "weight": 1000,
+    "order": 430
+  },
+  {
+    "id": 358,
+    "identifier": "chimecho",
+    "name": "Chimecho",
+    "height": 6,
+    "weight": 10,
+    "order": 432
+  },
+  {
+    "id": 359,
+    "identifier": "absol",
+    "name": "Absol",
+    "height": 12,
+    "weight": 470,
+    "order": 433
+  },
+  {
+    "id": 360,
+    "identifier": "wynaut",
+    "name": "Wynaut",
+    "height": 6,
+    "weight": 140,
+    "order": 256
+  },
+  {
+    "id": 361,
+    "identifier": "snorunt",
+    "name": "Snorunt",
+    "height": 7,
+    "weight": 168,
+    "order": 435
+  },
+  {
+    "id": 362,
+    "identifier": "glalie",
+    "name": "Glalie",
+    "height": 15,
+    "weight": 2565,
+    "order": 436
+  },
+  {
+    "id": 363,
+    "identifier": "spheal",
+    "name": "Spheal",
+    "height": 8,
+    "weight": 395,
+    "order": 439
+  },
+  {
+    "id": 364,
+    "identifier": "sealeo",
+    "name": "Sealeo",
+    "height": 11,
+    "weight": 876,
+    "order": 440
+  },
+  {
+    "id": 365,
+    "identifier": "walrein",
+    "name": "Walrein",
+    "height": 14,
+    "weight": 1506,
+    "order": 441
+  },
+  {
+    "id": 366,
+    "identifier": "clamperl",
+    "name": "Clamperl",
+    "height": 4,
+    "weight": 525,
+    "order": 442
+  },
+  {
+    "id": 367,
+    "identifier": "huntail",
+    "name": "Huntail",
+    "height": 17,
+    "weight": 270,
+    "order": 443
+  },
+  {
+    "id": 368,
+    "identifier": "gorebyss",
+    "name": "Gorebyss",
+    "height": 18,
+    "weight": 226,
+    "order": 444
+  },
+  {
+    "id": 369,
+    "identifier": "relicanth",
+    "name": "Relicanth",
+    "height": 10,
+    "weight": 234,
+    "order": 445
+  },
+  {
+    "id": 370,
+    "identifier": "luvdisc",
+    "name": "Luvdisc",
+    "height": 6,
+    "weight": 87,
+    "order": 446
+  },
+  {
+    "id": 371,
+    "identifier": "bagon",
+    "name": "Bagon",
+    "height": 6,
+    "weight": 421,
+    "order": 447
+  },
+  {
+    "id": 372,
+    "identifier": "shelgon",
+    "name": "Shelgon",
+    "height": 11,
+    "weight": 1105,
+    "order": 448
+  },
+  {
+    "id": 373,
+    "identifier": "salamence",
+    "name": "Salamence",
+    "height": 15,
+    "weight": 1026,
+    "order": 449
+  },
+  {
+    "id": 374,
+    "identifier": "beldum",
+    "name": "Beldum",
+    "height": 6,
+    "weight": 952,
+    "order": 451
+  },
+  {
+    "id": 375,
+    "identifier": "metang",
+    "name": "Metang",
+    "height": 12,
+    "weight": 2025,
+    "order": 452
+  },
+  {
+    "id": 376,
+    "identifier": "metagross",
+    "name": "Metagross",
+    "height": 16,
+    "weight": 5500,
+    "order": 453
+  },
+  {
+    "id": 377,
+    "identifier": "regirock",
+    "name": "Regirock",
+    "height": 17,
+    "weight": 2300,
+    "order": 455
+  },
+  {
+    "id": 378,
+    "identifier": "regice",
+    "name": "Regice",
+    "height": 18,
+    "weight": 1750,
+    "order": 456
+  },
+  {
+    "id": 379,
+    "identifier": "registeel",
+    "name": "Registeel",
+    "height": 19,
+    "weight": 2050,
+    "order": 457
+  },
+  {
+    "id": 380,
+    "identifier": "latias",
+    "name": "Latias",
+    "height": 14,
+    "weight": 400,
+    "order": 458
+  },
+  {
+    "id": 381,
+    "identifier": "latios",
+    "name": "Latios",
+    "height": 20,
+    "weight": 600,
+    "order": 460
+  },
+  {
+    "id": 382,
+    "identifier": "kyogre",
+    "name": "Kyogre",
+    "height": 45,
+    "weight": 3520,
+    "order": 462
+  },
+  {
+    "id": 383,
+    "identifier": "groudon",
+    "name": "Groudon",
+    "height": 35,
+    "weight": 9500,
+    "order": 464
+  },
+  {
+    "id": 384,
+    "identifier": "rayquaza",
+    "name": "Rayquaza",
+    "height": 70,
+    "weight": 2065,
+    "order": 466
+  },
+  {
+    "id": 385,
+    "identifier": "jirachi",
+    "name": "Jirachi",
+    "height": 3,
+    "weight": 11,
+    "order": 468
+  },
+  {
+    "id": 386,
+    "identifier": "deoxys-normal",
+    "name": "Deoxys Normal",
+    "height": 17,
+    "weight": 608,
+    "order": 469
+  },
+  {
+    "id": 387,
+    "identifier": "turtwig",
+    "name": "Turtwig",
+    "height": 4,
+    "weight": 102,
+    "order": 473
+  },
+  {
+    "id": 388,
+    "identifier": "grotle",
+    "name": "Grotle",
+    "height": 11,
+    "weight": 970,
+    "order": 474
+  },
+  {
+    "id": 389,
+    "identifier": "torterra",
+    "name": "Torterra",
+    "height": 22,
+    "weight": 3100,
+    "order": 475
+  },
+  {
+    "id": 390,
+    "identifier": "chimchar",
+    "name": "Chimchar",
+    "height": 5,
+    "weight": 62,
+    "order": 476
+  },
+  {
+    "id": 391,
+    "identifier": "monferno",
+    "name": "Monferno",
+    "height": 9,
+    "weight": 220,
+    "order": 477
+  },
+  {
+    "id": 392,
+    "identifier": "infernape",
+    "name": "Infernape",
+    "height": 12,
+    "weight": 550,
+    "order": 478
+  },
+  {
+    "id": 393,
+    "identifier": "piplup",
+    "name": "Piplup",
+    "height": 4,
+    "weight": 52,
+    "order": 479
+  },
+  {
+    "id": 394,
+    "identifier": "prinplup",
+    "name": "Prinplup",
+    "height": 8,
+    "weight": 230,
+    "order": 480
+  },
+  {
+    "id": 395,
+    "identifier": "empoleon",
+    "name": "Empoleon",
+    "height": 17,
+    "weight": 845,
+    "order": 481
+  },
+  {
+    "id": 396,
+    "identifier": "starly",
+    "name": "Starly",
+    "height": 3,
+    "weight": 20,
+    "order": 482
+  },
+  {
+    "id": 397,
+    "identifier": "staravia",
+    "name": "Staravia",
+    "height": 6,
+    "weight": 155,
+    "order": 483
+  },
+  {
+    "id": 398,
+    "identifier": "staraptor",
+    "name": "Staraptor",
+    "height": 12,
+    "weight": 249,
+    "order": 484
+  },
+  {
+    "id": 399,
+    "identifier": "bidoof",
+    "name": "Bidoof",
+    "height": 5,
+    "weight": 200,
+    "order": 485
+  },
+  {
+    "id": 400,
+    "identifier": "bibarel",
+    "name": "Bibarel",
+    "height": 10,
+    "weight": 315,
+    "order": 486
+  },
+  {
+    "id": 401,
+    "identifier": "kricketot",
+    "name": "Kricketot",
+    "height": 3,
+    "weight": 22,
+    "order": 487
+  },
+  {
+    "id": 402,
+    "identifier": "kricketune",
+    "name": "Kricketune",
+    "height": 10,
+    "weight": 255,
+    "order": 488
+  },
+  {
+    "id": 403,
+    "identifier": "shinx",
+    "name": "Shinx",
+    "height": 5,
+    "weight": 95,
+    "order": 489
+  },
+  {
+    "id": 404,
+    "identifier": "luxio",
+    "name": "Luxio",
+    "height": 9,
+    "weight": 305,
+    "order": 490
+  },
+  {
+    "id": 405,
+    "identifier": "luxray",
+    "name": "Luxray",
+    "height": 14,
+    "weight": 420,
+    "order": 491
+  },
+  {
+    "id": 406,
+    "identifier": "budew",
+    "name": "Budew",
+    "height": 2,
+    "weight": 12,
+    "order": 378
+  },
+  {
+    "id": 407,
+    "identifier": "roserade",
+    "name": "Roserade",
+    "height": 9,
+    "weight": 145,
+    "order": 380
+  },
+  {
+    "id": 408,
+    "identifier": "cranidos",
+    "name": "Cranidos",
+    "height": 9,
+    "weight": 315,
+    "order": 492
+  },
+  {
+    "id": 409,
+    "identifier": "rampardos",
+    "name": "Rampardos",
+    "height": 16,
+    "weight": 1025,
+    "order": 493
+  },
+  {
+    "id": 410,
+    "identifier": "shieldon",
+    "name": "Shieldon",
+    "height": 5,
+    "weight": 570,
+    "order": 494
+  },
+  {
+    "id": 411,
+    "identifier": "bastiodon",
+    "name": "Bastiodon",
+    "height": 13,
+    "weight": 1495,
+    "order": 495
+  },
+  {
+    "id": 412,
+    "identifier": "burmy",
+    "name": "Burmy",
+    "height": 2,
+    "weight": 34,
+    "order": 496
+  },
+  {
+    "id": 413,
+    "identifier": "wormadam-plant",
+    "name": "Wormadam Plant",
+    "height": 5,
+    "weight": 65,
+    "order": 497
+  },
+  {
+    "id": 414,
+    "identifier": "mothim",
+    "name": "Mothim",
+    "height": 9,
+    "weight": 233,
+    "order": 500
+  },
+  {
+    "id": 415,
+    "identifier": "combee",
+    "name": "Combee",
+    "height": 3,
+    "weight": 55,
+    "order": 501
+  },
+  {
+    "id": 416,
+    "identifier": "vespiquen",
+    "name": "Vespiquen",
+    "height": 12,
+    "weight": 385,
+    "order": 502
+  },
+  {
+    "id": 417,
+    "identifier": "pachirisu",
+    "name": "Pachirisu",
+    "height": 4,
+    "weight": 39,
+    "order": 503
+  },
+  {
+    "id": 418,
+    "identifier": "buizel",
+    "name": "Buizel",
+    "height": 7,
+    "weight": 295,
+    "order": 504
+  },
+  {
+    "id": 419,
+    "identifier": "floatzel",
+    "name": "Floatzel",
+    "height": 11,
+    "weight": 335,
+    "order": 505
+  },
+  {
+    "id": 420,
+    "identifier": "cherubi",
+    "name": "Cherubi",
+    "height": 4,
+    "weight": 33,
+    "order": 506
+  },
+  {
+    "id": 421,
+    "identifier": "cherrim",
+    "name": "Cherrim",
+    "height": 5,
+    "weight": 93,
+    "order": 507
+  },
+  {
+    "id": 422,
+    "identifier": "shellos",
+    "name": "Shellos",
+    "height": 3,
+    "weight": 63,
+    "order": 508
+  },
+  {
+    "id": 423,
+    "identifier": "gastrodon",
+    "name": "Gastrodon",
+    "height": 9,
+    "weight": 299,
+    "order": 509
+  },
+  {
+    "id": 424,
+    "identifier": "ambipom",
+    "name": "Ambipom",
+    "height": 12,
+    "weight": 203,
+    "order": 244
+  },
+  {
+    "id": 425,
+    "identifier": "drifloon",
+    "name": "Drifloon",
+    "height": 4,
+    "weight": 12,
+    "order": 510
+  },
+  {
+    "id": 426,
+    "identifier": "drifblim",
+    "name": "Drifblim",
+    "height": 12,
+    "weight": 150,
+    "order": 511
+  },
+  {
+    "id": 427,
+    "identifier": "buneary",
+    "name": "Buneary",
+    "height": 4,
+    "weight": 55,
+    "order": 512
+  },
+  {
+    "id": 428,
+    "identifier": "lopunny",
+    "name": "Lopunny",
+    "height": 12,
+    "weight": 333,
+    "order": 513
+  },
+  {
+    "id": 429,
+    "identifier": "mismagius",
+    "name": "Mismagius",
+    "height": 9,
+    "weight": 44,
+    "order": 254
+  },
+  {
+    "id": 430,
+    "identifier": "honchkrow",
+    "name": "Honchkrow",
+    "height": 9,
+    "weight": 273,
+    "order": 252
+  },
+  {
+    "id": 431,
+    "identifier": "glameow",
+    "name": "Glameow",
+    "height": 5,
+    "weight": 39,
+    "order": 515
+  },
+  {
+    "id": 432,
+    "identifier": "purugly",
+    "name": "Purugly",
+    "height": 10,
+    "weight": 438,
+    "order": 516
+  },
+  {
+    "id": 433,
+    "identifier": "chingling",
+    "name": "Chingling",
+    "height": 2,
+    "weight": 6,
+    "order": 431
+  },
+  {
+    "id": 434,
+    "identifier": "stunky",
+    "name": "Stunky",
+    "height": 4,
+    "weight": 192,
+    "order": 517
+  },
+  {
+    "id": 435,
+    "identifier": "skuntank",
+    "name": "Skuntank",
+    "height": 10,
+    "weight": 380,
+    "order": 518
+  },
+  {
+    "id": 436,
+    "identifier": "bronzor",
+    "name": "Bronzor",
+    "height": 5,
+    "weight": 605,
+    "order": 519
+  },
+  {
+    "id": 437,
+    "identifier": "bronzong",
+    "name": "Bronzong",
+    "height": 13,
+    "weight": 1870,
+    "order": 520
+  },
+  {
+    "id": 438,
+    "identifier": "bonsly",
+    "name": "Bonsly",
+    "height": 5,
+    "weight": 150,
+    "order": 238
+  },
+  {
+    "id": 439,
+    "identifier": "mime-jr",
+    "name": "Mime Jr",
+    "height": 6,
+    "weight": 130,
+    "order": 156
+  },
+  {
+    "id": 440,
+    "identifier": "happiny",
+    "name": "Happiny",
+    "height": 6,
+    "weight": 244,
+    "order": 142
+  },
+  {
+    "id": 441,
+    "identifier": "chatot",
+    "name": "Chatot",
+    "height": 5,
+    "weight": 19,
+    "order": 521
+  },
+  {
+    "id": 442,
+    "identifier": "spiritomb",
+    "name": "Spiritomb",
+    "height": 10,
+    "weight": 1080,
+    "order": 522
+  },
+  {
+    "id": 443,
+    "identifier": "gible",
+    "name": "Gible",
+    "height": 7,
+    "weight": 205,
+    "order": 523
+  },
+  {
+    "id": 444,
+    "identifier": "gabite",
+    "name": "Gabite",
+    "height": 14,
+    "weight": 560,
+    "order": 524
+  },
+  {
+    "id": 445,
+    "identifier": "garchomp",
+    "name": "Garchomp",
+    "height": 19,
+    "weight": 950,
+    "order": 525
+  },
+  {
+    "id": 446,
+    "identifier": "munchlax",
+    "name": "Munchlax",
+    "height": 6,
+    "weight": 1050,
+    "order": 195
+  },
+  {
+    "id": 447,
+    "identifier": "riolu",
+    "name": "Riolu",
+    "height": 7,
+    "weight": 202,
+    "order": 527
+  },
+  {
+    "id": 448,
+    "identifier": "lucario",
+    "name": "Lucario",
+    "height": 12,
+    "weight": 540,
+    "order": 528
+  },
+  {
+    "id": 449,
+    "identifier": "hippopotas",
+    "name": "Hippopotas",
+    "height": 8,
+    "weight": 495,
+    "order": 530
+  },
+  {
+    "id": 450,
+    "identifier": "hippowdon",
+    "name": "Hippowdon",
+    "height": 20,
+    "weight": 3000,
+    "order": 531
+  },
+  {
+    "id": 451,
+    "identifier": "skorupi",
+    "name": "Skorupi",
+    "height": 8,
+    "weight": 120,
+    "order": 532
+  },
+  {
+    "id": 452,
+    "identifier": "drapion",
+    "name": "Drapion",
+    "height": 13,
+    "weight": 615,
+    "order": 533
+  },
+  {
+    "id": 453,
+    "identifier": "croagunk",
+    "name": "Croagunk",
+    "height": 7,
+    "weight": 230,
+    "order": 534
+  },
+  {
+    "id": 454,
+    "identifier": "toxicroak",
+    "name": "Toxicroak",
+    "height": 13,
+    "weight": 444,
+    "order": 535
+  },
+  {
+    "id": 455,
+    "identifier": "carnivine",
+    "name": "Carnivine",
+    "height": 14,
+    "weight": 270,
+    "order": 536
+  },
+  {
+    "id": 456,
+    "identifier": "finneon",
+    "name": "Finneon",
+    "height": 4,
+    "weight": 70,
+    "order": 537
+  },
+  {
+    "id": 457,
+    "identifier": "lumineon",
+    "name": "Lumineon",
+    "height": 12,
+    "weight": 240,
+    "order": 538
+  },
+  {
+    "id": 458,
+    "identifier": "mantyke",
+    "name": "Mantyke",
+    "height": 10,
+    "weight": 650,
+    "order": 283
+  },
+  {
+    "id": 459,
+    "identifier": "snover",
+    "name": "Snover",
+    "height": 10,
+    "weight": 505,
+    "order": 539
+  },
+  {
+    "id": 460,
+    "identifier": "abomasnow",
+    "name": "Abomasnow",
+    "height": 22,
+    "weight": 1355,
+    "order": 540
+  },
+  {
+    "id": 461,
+    "identifier": "weavile",
+    "name": "Weavile",
+    "height": 11,
+    "weight": 340,
+    "order": 271
+  },
+  {
+    "id": 462,
+    "identifier": "magnezone",
+    "name": "Magnezone",
+    "height": 12,
+    "weight": 1800,
+    "order": 104
+  },
+  {
+    "id": 463,
+    "identifier": "lickilicky",
+    "name": "Lickilicky",
+    "height": 17,
+    "weight": 1400,
+    "order": 136
+  },
+  {
+    "id": 464,
+    "identifier": "rhyperior",
+    "name": "Rhyperior",
+    "height": 24,
+    "weight": 2828,
+    "order": 141
+  },
+  {
+    "id": 465,
+    "identifier": "tangrowth",
+    "name": "Tangrowth",
+    "height": 20,
+    "weight": 1286,
+    "order": 146
+  },
+  {
+    "id": 466,
+    "identifier": "electivire",
+    "name": "Electivire",
+    "height": 18,
+    "weight": 1386,
+    "order": 165
+  },
+  {
+    "id": 467,
+    "identifier": "magmortar",
+    "name": "Magmortar",
+    "height": 16,
+    "weight": 680,
+    "order": 168
+  },
+  {
+    "id": 468,
+    "identifier": "togekiss",
+    "name": "Togekiss",
+    "height": 15,
+    "weight": 380,
+    "order": 228
+  },
+  {
+    "id": 469,
+    "identifier": "yanmega",
+    "name": "Yanmega",
+    "height": 19,
+    "weight": 515,
+    "order": 248
+  },
+  {
+    "id": 470,
+    "identifier": "leafeon",
+    "name": "Leafeon",
+    "height": 10,
+    "weight": 255,
+    "order": 183
+  },
+  {
+    "id": 471,
+    "identifier": "glaceon",
+    "name": "Glaceon",
+    "height": 8,
+    "weight": 259,
+    "order": 184
+  },
+  {
+    "id": 472,
+    "identifier": "gliscor",
+    "name": "Gliscor",
+    "height": 20,
+    "weight": 425,
+    "order": 263
+  },
+  {
+    "id": 473,
+    "identifier": "mamoswine",
+    "name": "Mamoswine",
+    "height": 25,
+    "weight": 2910,
+    "order": 278
+  },
+  {
+    "id": 474,
+    "identifier": "porygon-z",
+    "name": "Porygon Z",
+    "height": 9,
+    "weight": 340,
+    "order": 188
+  },
+  {
+    "id": 475,
+    "identifier": "gallade",
+    "name": "Gallade",
+    "height": 16,
+    "weight": 520,
+    "order": 339
+  },
+  {
+    "id": 476,
+    "identifier": "probopass",
+    "name": "Probopass",
+    "height": 14,
+    "weight": 3400,
+    "order": 357
+  },
+  {
+    "id": 477,
+    "identifier": "dusknoir",
+    "name": "Dusknoir",
+    "height": 22,
+    "weight": 1066,
+    "order": 429
+  },
+  {
+    "id": 478,
+    "identifier": "froslass",
+    "name": "Froslass",
+    "height": 13,
+    "weight": 266,
+    "order": 438
+  },
+  {
+    "id": 479,
+    "identifier": "rotom",
+    "name": "Rotom",
+    "height": 3,
+    "weight": 3,
+    "order": 542
+  },
+  {
+    "id": 480,
+    "identifier": "uxie",
+    "name": "Uxie",
+    "height": 3,
+    "weight": 3,
+    "order": 548
+  },
+  {
+    "id": 481,
+    "identifier": "mesprit",
+    "name": "Mesprit",
+    "height": 3,
+    "weight": 3,
+    "order": 549
+  },
+  {
+    "id": 482,
+    "identifier": "azelf",
+    "name": "Azelf",
+    "height": 3,
+    "weight": 3,
+    "order": 550
+  },
+  {
+    "id": 483,
+    "identifier": "dialga",
+    "name": "Dialga",
+    "height": 54,
+    "weight": 6830,
+    "order": 551
+  },
+  {
+    "id": 484,
+    "identifier": "palkia",
+    "name": "Palkia",
+    "height": 42,
+    "weight": 3360,
+    "order": 552
+  },
+  {
+    "id": 485,
+    "identifier": "heatran",
+    "name": "Heatran",
+    "height": 17,
+    "weight": 4300,
+    "order": 553
+  },
+  {
+    "id": 486,
+    "identifier": "regigigas",
+    "name": "Regigigas",
+    "height": 37,
+    "weight": 4200,
+    "order": 554
+  },
+  {
+    "id": 487,
+    "identifier": "giratina-altered",
+    "name": "Giratina Altered",
+    "height": 45,
+    "weight": 7500,
+    "order": 555
+  },
+  {
+    "id": 488,
+    "identifier": "cresselia",
+    "name": "Cresselia",
+    "height": 15,
+    "weight": 856,
+    "order": 557
+  },
+  {
+    "id": 489,
+    "identifier": "phione",
+    "name": "Phione",
+    "height": 4,
+    "weight": 31,
+    "order": 558
+  },
+  {
+    "id": 490,
+    "identifier": "manaphy",
+    "name": "Manaphy",
+    "height": 3,
+    "weight": 14,
+    "order": 559
+  },
+  {
+    "id": 491,
+    "identifier": "darkrai",
+    "name": "Darkrai",
+    "height": 15,
+    "weight": 505,
+    "order": 560
+  },
+  {
+    "id": 492,
+    "identifier": "shaymin-land",
+    "name": "Shaymin Land",
+    "height": 2,
+    "weight": 21,
+    "order": 561
+  },
+  {
+    "id": 493,
+    "identifier": "arceus",
+    "name": "Arceus",
+    "height": 32,
+    "weight": 3200,
+    "order": 563
+  },
+  {
+    "id": 494,
+    "identifier": "victini",
+    "name": "Victini",
+    "height": 4,
+    "weight": 40,
+    "order": 564
+  },
+  {
+    "id": 495,
+    "identifier": "snivy",
+    "name": "Snivy",
+    "height": 6,
+    "weight": 81,
+    "order": 565
+  },
+  {
+    "id": 496,
+    "identifier": "servine",
+    "name": "Servine",
+    "height": 8,
+    "weight": 160,
+    "order": 566
+  },
+  {
+    "id": 497,
+    "identifier": "serperior",
+    "name": "Serperior",
+    "height": 33,
+    "weight": 630,
+    "order": 567
+  },
+  {
+    "id": 498,
+    "identifier": "tepig",
+    "name": "Tepig",
+    "height": 5,
+    "weight": 99,
+    "order": 568
+  },
+  {
+    "id": 499,
+    "identifier": "pignite",
+    "name": "Pignite",
+    "height": 10,
+    "weight": 555,
+    "order": 569
+  },
+  {
+    "id": 500,
+    "identifier": "emboar",
+    "name": "Emboar",
+    "height": 16,
+    "weight": 1500,
+    "order": 570
+  },
+  {
+    "id": 501,
+    "identifier": "oshawott",
+    "name": "Oshawott",
+    "height": 5,
+    "weight": 59,
+    "order": 571
+  },
+  {
+    "id": 502,
+    "identifier": "dewott",
+    "name": "Dewott",
+    "height": 8,
+    "weight": 245,
+    "order": 572
+  },
+  {
+    "id": 503,
+    "identifier": "samurott",
+    "name": "Samurott",
+    "height": 15,
+    "weight": 946,
+    "order": 573
+  },
+  {
+    "id": 504,
+    "identifier": "patrat",
+    "name": "Patrat",
+    "height": 5,
+    "weight": 116,
+    "order": 574
+  },
+  {
+    "id": 505,
+    "identifier": "watchog",
+    "name": "Watchog",
+    "height": 11,
+    "weight": 270,
+    "order": 575
+  },
+  {
+    "id": 506,
+    "identifier": "lillipup",
+    "name": "Lillipup",
+    "height": 4,
+    "weight": 41,
+    "order": 576
+  },
+  {
+    "id": 507,
+    "identifier": "herdier",
+    "name": "Herdier",
+    "height": 9,
+    "weight": 147,
+    "order": 577
+  },
+  {
+    "id": 508,
+    "identifier": "stoutland",
+    "name": "Stoutland",
+    "height": 12,
+    "weight": 610,
+    "order": 578
+  },
+  {
+    "id": 509,
+    "identifier": "purrloin",
+    "name": "Purrloin",
+    "height": 4,
+    "weight": 101,
+    "order": 579
+  },
+  {
+    "id": 510,
+    "identifier": "liepard",
+    "name": "Liepard",
+    "height": 11,
+    "weight": 375,
+    "order": 580
+  },
+  {
+    "id": 511,
+    "identifier": "pansage",
+    "name": "Pansage",
+    "height": 6,
+    "weight": 105,
+    "order": 581
+  },
+  {
+    "id": 512,
+    "identifier": "simisage",
+    "name": "Simisage",
+    "height": 11,
+    "weight": 305,
+    "order": 582
+  },
+  {
+    "id": 513,
+    "identifier": "pansear",
+    "name": "Pansear",
+    "height": 6,
+    "weight": 110,
+    "order": 583
+  },
+  {
+    "id": 514,
+    "identifier": "simisear",
+    "name": "Simisear",
+    "height": 10,
+    "weight": 280,
+    "order": 584
+  },
+  {
+    "id": 515,
+    "identifier": "panpour",
+    "name": "Panpour",
+    "height": 6,
+    "weight": 135,
+    "order": 585
+  },
+  {
+    "id": 516,
+    "identifier": "simipour",
+    "name": "Simipour",
+    "height": 10,
+    "weight": 290,
+    "order": 586
+  },
+  {
+    "id": 517,
+    "identifier": "munna",
+    "name": "Munna",
+    "height": 6,
+    "weight": 233,
+    "order": 587
+  },
+  {
+    "id": 518,
+    "identifier": "musharna",
+    "name": "Musharna",
+    "height": 11,
+    "weight": 605,
+    "order": 588
+  },
+  {
+    "id": 519,
+    "identifier": "pidove",
+    "name": "Pidove",
+    "height": 3,
+    "weight": 21,
+    "order": 589
+  },
+  {
+    "id": 520,
+    "identifier": "tranquill",
+    "name": "Tranquill",
+    "height": 6,
+    "weight": 150,
+    "order": 590
+  },
+  {
+    "id": 521,
+    "identifier": "unfezant",
+    "name": "Unfezant",
+    "height": 12,
+    "weight": 290,
+    "order": 591
+  },
+  {
+    "id": 522,
+    "identifier": "blitzle",
+    "name": "Blitzle",
+    "height": 8,
+    "weight": 298,
+    "order": 592
+  },
+  {
+    "id": 523,
+    "identifier": "zebstrika",
+    "name": "Zebstrika",
+    "height": 16,
+    "weight": 795,
+    "order": 593
+  },
+  {
+    "id": 524,
+    "identifier": "roggenrola",
+    "name": "Roggenrola",
+    "height": 4,
+    "weight": 180,
+    "order": 594
+  },
+  {
+    "id": 525,
+    "identifier": "boldore",
+    "name": "Boldore",
+    "height": 9,
+    "weight": 1020,
+    "order": 595
+  },
+  {
+    "id": 526,
+    "identifier": "gigalith",
+    "name": "Gigalith",
+    "height": 17,
+    "weight": 2600,
+    "order": 596
+  },
+  {
+    "id": 527,
+    "identifier": "woobat",
+    "name": "Woobat",
+    "height": 4,
+    "weight": 21,
+    "order": 597
+  },
+  {
+    "id": 528,
+    "identifier": "swoobat",
+    "name": "Swoobat",
+    "height": 9,
+    "weight": 105,
+    "order": 598
+  },
+  {
+    "id": 529,
+    "identifier": "drilbur",
+    "name": "Drilbur",
+    "height": 3,
+    "weight": 85,
+    "order": 599
+  },
+  {
+    "id": 530,
+    "identifier": "excadrill",
+    "name": "Excadrill",
+    "height": 7,
+    "weight": 404,
+    "order": 600
+  },
+  {
+    "id": 531,
+    "identifier": "audino",
+    "name": "Audino",
+    "height": 11,
+    "weight": 310,
+    "order": 601
+  },
+  {
+    "id": 532,
+    "identifier": "timburr",
+    "name": "Timburr",
+    "height": 6,
+    "weight": 125,
+    "order": 603
+  },
+  {
+    "id": 533,
+    "identifier": "gurdurr",
+    "name": "Gurdurr",
+    "height": 12,
+    "weight": 400,
+    "order": 604
+  },
+  {
+    "id": 534,
+    "identifier": "conkeldurr",
+    "name": "Conkeldurr",
+    "height": 14,
+    "weight": 870,
+    "order": 605
+  },
+  {
+    "id": 535,
+    "identifier": "tympole",
+    "name": "Tympole",
+    "height": 5,
+    "weight": 45,
+    "order": 606
+  },
+  {
+    "id": 536,
+    "identifier": "palpitoad",
+    "name": "Palpitoad",
+    "height": 8,
+    "weight": 170,
+    "order": 607
+  },
+  {
+    "id": 537,
+    "identifier": "seismitoad",
+    "name": "Seismitoad",
+    "height": 15,
+    "weight": 620,
+    "order": 608
+  },
+  {
+    "id": 538,
+    "identifier": "throh",
+    "name": "Throh",
+    "height": 13,
+    "weight": 555,
+    "order": 609
+  },
+  {
+    "id": 539,
+    "identifier": "sawk",
+    "name": "Sawk",
+    "height": 14,
+    "weight": 510,
+    "order": 610
+  },
+  {
+    "id": 540,
+    "identifier": "sewaddle",
+    "name": "Sewaddle",
+    "height": 3,
+    "weight": 25,
+    "order": 611
+  },
+  {
+    "id": 541,
+    "identifier": "swadloon",
+    "name": "Swadloon",
+    "height": 5,
+    "weight": 73,
+    "order": 612
+  },
+  {
+    "id": 542,
+    "identifier": "leavanny",
+    "name": "Leavanny",
+    "height": 12,
+    "weight": 205,
+    "order": 613
+  },
+  {
+    "id": 543,
+    "identifier": "venipede",
+    "name": "Venipede",
+    "height": 4,
+    "weight": 53,
+    "order": 614
+  },
+  {
+    "id": 544,
+    "identifier": "whirlipede",
+    "name": "Whirlipede",
+    "height": 12,
+    "weight": 585,
+    "order": 615
+  },
+  {
+    "id": 545,
+    "identifier": "scolipede",
+    "name": "Scolipede",
+    "height": 25,
+    "weight": 2005,
+    "order": 616
+  },
+  {
+    "id": 546,
+    "identifier": "cottonee",
+    "name": "Cottonee",
+    "height": 3,
+    "weight": 6,
+    "order": 617
+  },
+  {
+    "id": 547,
+    "identifier": "whimsicott",
+    "name": "Whimsicott",
+    "height": 7,
+    "weight": 66,
+    "order": 618
+  },
+  {
+    "id": 548,
+    "identifier": "petilil",
+    "name": "Petilil",
+    "height": 5,
+    "weight": 66,
+    "order": 619
+  },
+  {
+    "id": 549,
+    "identifier": "lilligant",
+    "name": "Lilligant",
+    "height": 11,
+    "weight": 163,
+    "order": 620
+  },
+  {
+    "id": 550,
+    "identifier": "basculin-red-striped",
+    "name": "Basculin Red Striped",
+    "height": 10,
+    "weight": 180,
+    "order": 621
+  },
+  {
+    "id": 551,
+    "identifier": "sandile",
+    "name": "Sandile",
+    "height": 7,
+    "weight": 152,
+    "order": 623
+  },
+  {
+    "id": 552,
+    "identifier": "krokorok",
+    "name": "Krokorok",
+    "height": 10,
+    "weight": 334,
+    "order": 624
+  },
+  {
+    "id": 553,
+    "identifier": "krookodile",
+    "name": "Krookodile",
+    "height": 15,
+    "weight": 963,
+    "order": 625
+  },
+  {
+    "id": 554,
+    "identifier": "darumaka",
+    "name": "Darumaka",
+    "height": 6,
+    "weight": 375,
+    "order": 626
+  },
+  {
+    "id": 555,
+    "identifier": "darmanitan-standard",
+    "name": "Darmanitan Standard",
+    "height": 13,
+    "weight": 929,
+    "order": 627
+  },
+  {
+    "id": 556,
+    "identifier": "maractus",
+    "name": "Maractus",
+    "height": 10,
+    "weight": 280,
+    "order": 629
+  },
+  {
+    "id": 557,
+    "identifier": "dwebble",
+    "name": "Dwebble",
+    "height": 3,
+    "weight": 145,
+    "order": 630
+  },
+  {
+    "id": 558,
+    "identifier": "crustle",
+    "name": "Crustle",
+    "height": 14,
+    "weight": 2000,
+    "order": 631
+  },
+  {
+    "id": 559,
+    "identifier": "scraggy",
+    "name": "Scraggy",
+    "height": 6,
+    "weight": 118,
+    "order": 632
+  },
+  {
+    "id": 560,
+    "identifier": "scrafty",
+    "name": "Scrafty",
+    "height": 11,
+    "weight": 300,
+    "order": 633
+  },
+  {
+    "id": 561,
+    "identifier": "sigilyph",
+    "name": "Sigilyph",
+    "height": 14,
+    "weight": 140,
+    "order": 634
+  },
+  {
+    "id": 562,
+    "identifier": "yamask",
+    "name": "Yamask",
+    "height": 5,
+    "weight": 15,
+    "order": 635
+  },
+  {
+    "id": 563,
+    "identifier": "cofagrigus",
+    "name": "Cofagrigus",
+    "height": 17,
+    "weight": 765,
+    "order": 636
+  },
+  {
+    "id": 564,
+    "identifier": "tirtouga",
+    "name": "Tirtouga",
+    "height": 7,
+    "weight": 165,
+    "order": 637
+  },
+  {
+    "id": 565,
+    "identifier": "carracosta",
+    "name": "Carracosta",
+    "height": 12,
+    "weight": 810,
+    "order": 638
+  },
+  {
+    "id": 566,
+    "identifier": "archen",
+    "name": "Archen",
+    "height": 5,
+    "weight": 95,
+    "order": 639
+  },
+  {
+    "id": 567,
+    "identifier": "archeops",
+    "name": "Archeops",
+    "height": 14,
+    "weight": 320,
+    "order": 640
+  },
+  {
+    "id": 568,
+    "identifier": "trubbish",
+    "name": "Trubbish",
+    "height": 6,
+    "weight": 310,
+    "order": 641
+  },
+  {
+    "id": 569,
+    "identifier": "garbodor",
+    "name": "Garbodor",
+    "height": 19,
+    "weight": 1073,
+    "order": 642
+  },
+  {
+    "id": 570,
+    "identifier": "zorua",
+    "name": "Zorua",
+    "height": 7,
+    "weight": 125,
+    "order": 643
+  },
+  {
+    "id": 571,
+    "identifier": "zoroark",
+    "name": "Zoroark",
+    "height": 16,
+    "weight": 811,
+    "order": 644
+  },
+  {
+    "id": 572,
+    "identifier": "minccino",
+    "name": "Minccino",
+    "height": 4,
+    "weight": 58,
+    "order": 645
+  },
+  {
+    "id": 573,
+    "identifier": "cinccino",
+    "name": "Cinccino",
+    "height": 5,
+    "weight": 75,
+    "order": 646
+  },
+  {
+    "id": 574,
+    "identifier": "gothita",
+    "name": "Gothita",
+    "height": 4,
+    "weight": 58,
+    "order": 647
+  },
+  {
+    "id": 575,
+    "identifier": "gothorita",
+    "name": "Gothorita",
+    "height": 7,
+    "weight": 180,
+    "order": 648
+  },
+  {
+    "id": 576,
+    "identifier": "gothitelle",
+    "name": "Gothitelle",
+    "height": 15,
+    "weight": 440,
+    "order": 649
+  },
+  {
+    "id": 577,
+    "identifier": "solosis",
+    "name": "Solosis",
+    "height": 3,
+    "weight": 10,
+    "order": 650
+  },
+  {
+    "id": 578,
+    "identifier": "duosion",
+    "name": "Duosion",
+    "height": 6,
+    "weight": 80,
+    "order": 651
+  },
+  {
+    "id": 579,
+    "identifier": "reuniclus",
+    "name": "Reuniclus",
+    "height": 10,
+    "weight": 201,
+    "order": 652
+  },
+  {
+    "id": 580,
+    "identifier": "ducklett",
+    "name": "Ducklett",
+    "height": 5,
+    "weight": 55,
+    "order": 653
+  },
+  {
+    "id": 581,
+    "identifier": "swanna",
+    "name": "Swanna",
+    "height": 13,
+    "weight": 242,
+    "order": 654
+  },
+  {
+    "id": 582,
+    "identifier": "vanillite",
+    "name": "Vanillite",
+    "height": 4,
+    "weight": 57,
+    "order": 655
+  },
+  {
+    "id": 583,
+    "identifier": "vanillish",
+    "name": "Vanillish",
+    "height": 11,
+    "weight": 410,
+    "order": 656
+  },
+  {
+    "id": 584,
+    "identifier": "vanilluxe",
+    "name": "Vanilluxe",
+    "height": 13,
+    "weight": 575,
+    "order": 657
+  },
+  {
+    "id": 585,
+    "identifier": "deerling",
+    "name": "Deerling",
+    "height": 6,
+    "weight": 195,
+    "order": 658
+  },
+  {
+    "id": 586,
+    "identifier": "sawsbuck",
+    "name": "Sawsbuck",
+    "height": 19,
+    "weight": 925,
+    "order": 659
+  },
+  {
+    "id": 587,
+    "identifier": "emolga",
+    "name": "Emolga",
+    "height": 4,
+    "weight": 50,
+    "order": 660
+  },
+  {
+    "id": 588,
+    "identifier": "karrablast",
+    "name": "Karrablast",
+    "height": 5,
+    "weight": 59,
+    "order": 661
+  },
+  {
+    "id": 589,
+    "identifier": "escavalier",
+    "name": "Escavalier",
+    "height": 10,
+    "weight": 330,
+    "order": 662
+  },
+  {
+    "id": 590,
+    "identifier": "foongus",
+    "name": "Foongus",
+    "height": 2,
+    "weight": 10,
+    "order": 663
+  },
+  {
+    "id": 591,
+    "identifier": "amoonguss",
+    "name": "Amoonguss",
+    "height": 6,
+    "weight": 105,
+    "order": 664
+  },
+  {
+    "id": 592,
+    "identifier": "frillish",
+    "name": "Frillish",
+    "height": 12,
+    "weight": 330,
+    "order": 665
+  },
+  {
+    "id": 593,
+    "identifier": "jellicent",
+    "name": "Jellicent",
+    "height": 22,
+    "weight": 1350,
+    "order": 666
+  },
+  {
+    "id": 594,
+    "identifier": "alomomola",
+    "name": "Alomomola",
+    "height": 12,
+    "weight": 316,
+    "order": 667
+  },
+  {
+    "id": 595,
+    "identifier": "joltik",
+    "name": "Joltik",
+    "height": 1,
+    "weight": 6,
+    "order": 668
+  },
+  {
+    "id": 596,
+    "identifier": "galvantula",
+    "name": "Galvantula",
+    "height": 8,
+    "weight": 143,
+    "order": 669
+  },
+  {
+    "id": 597,
+    "identifier": "ferroseed",
+    "name": "Ferroseed",
+    "height": 6,
+    "weight": 188,
+    "order": 670
+  },
+  {
+    "id": 598,
+    "identifier": "ferrothorn",
+    "name": "Ferrothorn",
+    "height": 10,
+    "weight": 1100,
+    "order": 671
+  },
+  {
+    "id": 599,
+    "identifier": "klink",
+    "name": "Klink",
+    "height": 3,
+    "weight": 210,
+    "order": 672
+  },
+  {
+    "id": 600,
+    "identifier": "klang",
+    "name": "Klang",
+    "height": 6,
+    "weight": 510,
+    "order": 673
+  },
+  {
+    "id": 601,
+    "identifier": "klinklang",
+    "name": "Klinklang",
+    "height": 6,
+    "weight": 810,
+    "order": 674
+  },
+  {
+    "id": 602,
+    "identifier": "tynamo",
+    "name": "Tynamo",
+    "height": 2,
+    "weight": 3,
+    "order": 675
+  },
+  {
+    "id": 603,
+    "identifier": "eelektrik",
+    "name": "Eelektrik",
+    "height": 12,
+    "weight": 220,
+    "order": 676
+  },
+  {
+    "id": 604,
+    "identifier": "eelektross",
+    "name": "Eelektross",
+    "height": 21,
+    "weight": 805,
+    "order": 677
+  },
+  {
+    "id": 605,
+    "identifier": "elgyem",
+    "name": "Elgyem",
+    "height": 5,
+    "weight": 90,
+    "order": 678
+  },
+  {
+    "id": 606,
+    "identifier": "beheeyem",
+    "name": "Beheeyem",
+    "height": 10,
+    "weight": 345,
+    "order": 679
+  },
+  {
+    "id": 607,
+    "identifier": "litwick",
+    "name": "Litwick",
+    "height": 3,
+    "weight": 31,
+    "order": 680
+  },
+  {
+    "id": 608,
+    "identifier": "lampent",
+    "name": "Lampent",
+    "height": 6,
+    "weight": 130,
+    "order": 681
+  },
+  {
+    "id": 609,
+    "identifier": "chandelure",
+    "name": "Chandelure",
+    "height": 10,
+    "weight": 343,
+    "order": 682
+  },
+  {
+    "id": 610,
+    "identifier": "axew",
+    "name": "Axew",
+    "height": 6,
+    "weight": 180,
+    "order": 683
+  },
+  {
+    "id": 611,
+    "identifier": "fraxure",
+    "name": "Fraxure",
+    "height": 10,
+    "weight": 360,
+    "order": 684
+  },
+  {
+    "id": 612,
+    "identifier": "haxorus",
+    "name": "Haxorus",
+    "height": 18,
+    "weight": 1055,
+    "order": 685
+  },
+  {
+    "id": 613,
+    "identifier": "cubchoo",
+    "name": "Cubchoo",
+    "height": 5,
+    "weight": 85,
+    "order": 686
+  },
+  {
+    "id": 614,
+    "identifier": "beartic",
+    "name": "Beartic",
+    "height": 26,
+    "weight": 2600,
+    "order": 687
+  },
+  {
+    "id": 615,
+    "identifier": "cryogonal",
+    "name": "Cryogonal",
+    "height": 11,
+    "weight": 1480,
+    "order": 688
+  },
+  {
+    "id": 616,
+    "identifier": "shelmet",
+    "name": "Shelmet",
+    "height": 4,
+    "weight": 77,
+    "order": 689
+  },
+  {
+    "id": 617,
+    "identifier": "accelgor",
+    "name": "Accelgor",
+    "height": 8,
+    "weight": 253,
+    "order": 690
+  },
+  {
+    "id": 618,
+    "identifier": "stunfisk",
+    "name": "Stunfisk",
+    "height": 7,
+    "weight": 110,
+    "order": 691
+  },
+  {
+    "id": 619,
+    "identifier": "mienfoo",
+    "name": "Mienfoo",
+    "height": 9,
+    "weight": 200,
+    "order": 692
+  },
+  {
+    "id": 620,
+    "identifier": "mienshao",
+    "name": "Mienshao",
+    "height": 14,
+    "weight": 355,
+    "order": 693
+  },
+  {
+    "id": 621,
+    "identifier": "druddigon",
+    "name": "Druddigon",
+    "height": 16,
+    "weight": 1390,
+    "order": 694
+  },
+  {
+    "id": 622,
+    "identifier": "golett",
+    "name": "Golett",
+    "height": 10,
+    "weight": 920,
+    "order": 695
+  },
+  {
+    "id": 623,
+    "identifier": "golurk",
+    "name": "Golurk",
+    "height": 28,
+    "weight": 3300,
+    "order": 696
+  },
+  {
+    "id": 624,
+    "identifier": "pawniard",
+    "name": "Pawniard",
+    "height": 5,
+    "weight": 102,
+    "order": 697
+  },
+  {
+    "id": 625,
+    "identifier": "bisharp",
+    "name": "Bisharp",
+    "height": 16,
+    "weight": 700,
+    "order": 698
+  },
+  {
+    "id": 626,
+    "identifier": "bouffalant",
+    "name": "Bouffalant",
+    "height": 16,
+    "weight": 946,
+    "order": 699
+  },
+  {
+    "id": 627,
+    "identifier": "rufflet",
+    "name": "Rufflet",
+    "height": 5,
+    "weight": 105,
+    "order": 700
+  },
+  {
+    "id": 628,
+    "identifier": "braviary",
+    "name": "Braviary",
+    "height": 15,
+    "weight": 410,
+    "order": 701
+  },
+  {
+    "id": 629,
+    "identifier": "vullaby",
+    "name": "Vullaby",
+    "height": 5,
+    "weight": 90,
+    "order": 702
+  },
+  {
+    "id": 630,
+    "identifier": "mandibuzz",
+    "name": "Mandibuzz",
+    "height": 12,
+    "weight": 395,
+    "order": 703
+  },
+  {
+    "id": 631,
+    "identifier": "heatmor",
+    "name": "Heatmor",
+    "height": 14,
+    "weight": 580,
+    "order": 704
+  },
+  {
+    "id": 632,
+    "identifier": "durant",
+    "name": "Durant",
+    "height": 3,
+    "weight": 330,
+    "order": 705
+  },
+  {
+    "id": 633,
+    "identifier": "deino",
+    "name": "Deino",
+    "height": 8,
+    "weight": 173,
+    "order": 706
+  },
+  {
+    "id": 634,
+    "identifier": "zweilous",
+    "name": "Zweilous",
+    "height": 14,
+    "weight": 500,
+    "order": 707
+  },
+  {
+    "id": 635,
+    "identifier": "hydreigon",
+    "name": "Hydreigon",
+    "height": 18,
+    "weight": 1600,
+    "order": 708
+  },
+  {
+    "id": 636,
+    "identifier": "larvesta",
+    "name": "Larvesta",
+    "height": 11,
+    "weight": 288,
+    "order": 709
+  },
+  {
+    "id": 637,
+    "identifier": "volcarona",
+    "name": "Volcarona",
+    "height": 16,
+    "weight": 460,
+    "order": 710
+  },
+  {
+    "id": 638,
+    "identifier": "cobalion",
+    "name": "Cobalion",
+    "height": 21,
+    "weight": 2500,
+    "order": 711
+  },
+  {
+    "id": 639,
+    "identifier": "terrakion",
+    "name": "Terrakion",
+    "height": 19,
+    "weight": 2600,
+    "order": 712
+  },
+  {
+    "id": 640,
+    "identifier": "virizion",
+    "name": "Virizion",
+    "height": 20,
+    "weight": 2000,
+    "order": 713
+  },
+  {
+    "id": 641,
+    "identifier": "tornadus-incarnate",
+    "name": "Tornadus Incarnate",
+    "height": 15,
+    "weight": 630,
+    "order": 714
+  },
+  {
+    "id": 642,
+    "identifier": "thundurus-incarnate",
+    "name": "Thundurus Incarnate",
+    "height": 15,
+    "weight": 610,
+    "order": 716
+  },
+  {
+    "id": 643,
+    "identifier": "reshiram",
+    "name": "Reshiram",
+    "height": 32,
+    "weight": 3300,
+    "order": 718
+  },
+  {
+    "id": 644,
+    "identifier": "zekrom",
+    "name": "Zekrom",
+    "height": 29,
+    "weight": 3450,
+    "order": 719
+  },
+  {
+    "id": 645,
+    "identifier": "landorus-incarnate",
+    "name": "Landorus Incarnate",
+    "height": 15,
+    "weight": 680,
+    "order": 720
+  },
+  {
+    "id": 646,
+    "identifier": "kyurem",
+    "name": "Kyurem",
+    "height": 30,
+    "weight": 3250,
+    "order": 722
+  },
+  {
+    "id": 647,
+    "identifier": "keldeo-ordinary",
+    "name": "Keldeo Ordinary",
+    "height": 14,
+    "weight": 485,
+    "order": 725
+  },
+  {
+    "id": 648,
+    "identifier": "meloetta-aria",
+    "name": "Meloetta Aria",
+    "height": 6,
+    "weight": 65,
+    "order": 727
+  },
+  {
+    "id": 649,
+    "identifier": "genesect",
+    "name": "Genesect",
+    "height": 15,
+    "weight": 825,
+    "order": 729
+  },
+  {
+    "id": 650,
+    "identifier": "chespin",
+    "name": "Chespin",
+    "height": 4,
+    "weight": 90,
+    "order": 730
+  },
+  {
+    "id": 651,
+    "identifier": "quilladin",
+    "name": "Quilladin",
+    "height": 7,
+    "weight": 290,
+    "order": 731
+  },
+  {
+    "id": 652,
+    "identifier": "chesnaught",
+    "name": "Chesnaught",
+    "height": 16,
+    "weight": 900,
+    "order": 732
+  },
+  {
+    "id": 653,
+    "identifier": "fennekin",
+    "name": "Fennekin",
+    "height": 4,
+    "weight": 94,
+    "order": 733
+  },
+  {
+    "id": 654,
+    "identifier": "braixen",
+    "name": "Braixen",
+    "height": 10,
+    "weight": 145,
+    "order": 734
+  },
+  {
+    "id": 655,
+    "identifier": "delphox",
+    "name": "Delphox",
+    "height": 15,
+    "weight": 390,
+    "order": 735
+  },
+  {
+    "id": 656,
+    "identifier": "froakie",
+    "name": "Froakie",
+    "height": 3,
+    "weight": 70,
+    "order": 736
+  },
+  {
+    "id": 657,
+    "identifier": "frogadier",
+    "name": "Frogadier",
+    "height": 6,
+    "weight": 109,
+    "order": 737
+  },
+  {
+    "id": 658,
+    "identifier": "greninja",
+    "name": "Greninja",
+    "height": 15,
+    "weight": 400,
+    "order": 738
+  },
+  {
+    "id": 659,
+    "identifier": "bunnelby",
+    "name": "Bunnelby",
+    "height": 4,
+    "weight": 50,
+    "order": 739
+  },
+  {
+    "id": 660,
+    "identifier": "diggersby",
+    "name": "Diggersby",
+    "height": 10,
+    "weight": 424,
+    "order": 740
+  },
+  {
+    "id": 661,
+    "identifier": "fletchling",
+    "name": "Fletchling",
+    "height": 3,
+    "weight": 17,
+    "order": 741
+  },
+  {
+    "id": 662,
+    "identifier": "fletchinder",
+    "name": "Fletchinder",
+    "height": 7,
+    "weight": 160,
+    "order": 742
+  },
+  {
+    "id": 663,
+    "identifier": "talonflame",
+    "name": "Talonflame",
+    "height": 12,
+    "weight": 245,
+    "order": 743
+  },
+  {
+    "id": 664,
+    "identifier": "scatterbug",
+    "name": "Scatterbug",
+    "height": 3,
+    "weight": 25,
+    "order": 744
+  },
+  {
+    "id": 665,
+    "identifier": "spewpa",
+    "name": "Spewpa",
+    "height": 3,
+    "weight": 84,
+    "order": 745
+  },
+  {
+    "id": 666,
+    "identifier": "vivillon",
+    "name": "Vivillon",
+    "height": 12,
+    "weight": 170,
+    "order": 746
+  },
+  {
+    "id": 667,
+    "identifier": "litleo",
+    "name": "Litleo",
+    "height": 6,
+    "weight": 135,
+    "order": 747
+  },
+  {
+    "id": 668,
+    "identifier": "pyroar",
+    "name": "Pyroar",
+    "height": 15,
+    "weight": 815,
+    "order": 748
+  },
+  {
+    "id": 669,
+    "identifier": "flabebe",
+    "name": "Flabebe",
+    "height": 1,
+    "weight": 1,
+    "order": 749
+  },
+  {
+    "id": 670,
+    "identifier": "floette",
+    "name": "Floette",
+    "height": 2,
+    "weight": 9,
+    "order": 750
+  },
+  {
+    "id": 671,
+    "identifier": "florges",
+    "name": "Florges",
+    "height": 11,
+    "weight": 100,
+    "order": 752
+  },
+  {
+    "id": 672,
+    "identifier": "skiddo",
+    "name": "Skiddo",
+    "height": 9,
+    "weight": 310,
+    "order": 753
+  },
+  {
+    "id": 673,
+    "identifier": "gogoat",
+    "name": "Gogoat",
+    "height": 17,
+    "weight": 910,
+    "order": 754
+  },
+  {
+    "id": 674,
+    "identifier": "pancham",
+    "name": "Pancham",
+    "height": 6,
+    "weight": 80,
+    "order": 755
+  },
+  {
+    "id": 675,
+    "identifier": "pangoro",
+    "name": "Pangoro",
+    "height": 21,
+    "weight": 1360,
+    "order": 756
+  },
+  {
+    "id": 676,
+    "identifier": "furfrou",
+    "name": "Furfrou",
+    "height": 12,
+    "weight": 280,
+    "order": 757
+  },
+  {
+    "id": 677,
+    "identifier": "espurr",
+    "name": "Espurr",
+    "height": 3,
+    "weight": 35,
+    "order": 758
+  },
+  {
+    "id": 678,
+    "identifier": "meowstic-male",
+    "name": "Meowstic Male",
+    "height": 6,
+    "weight": 85,
+    "order": 759
+  },
+  {
+    "id": 679,
+    "identifier": "honedge",
+    "name": "Honedge",
+    "height": 8,
+    "weight": 20,
+    "order": 761
+  },
+  {
+    "id": 680,
+    "identifier": "doublade",
+    "name": "Doublade",
+    "height": 8,
+    "weight": 45,
+    "order": 762
+  },
+  {
+    "id": 681,
+    "identifier": "aegislash-shield",
+    "name": "Aegislash Shield",
+    "height": 17,
+    "weight": 530,
+    "order": 763
+  },
+  {
+    "id": 682,
+    "identifier": "spritzee",
+    "name": "Spritzee",
+    "height": 2,
+    "weight": 5,
+    "order": 765
+  },
+  {
+    "id": 683,
+    "identifier": "aromatisse",
+    "name": "Aromatisse",
+    "height": 8,
+    "weight": 155,
+    "order": 766
+  },
+  {
+    "id": 684,
+    "identifier": "swirlix",
+    "name": "Swirlix",
+    "height": 4,
+    "weight": 35,
+    "order": 767
+  },
+  {
+    "id": 685,
+    "identifier": "slurpuff",
+    "name": "Slurpuff",
+    "height": 8,
+    "weight": 50,
+    "order": 768
+  },
+  {
+    "id": 686,
+    "identifier": "inkay",
+    "name": "Inkay",
+    "height": 4,
+    "weight": 35,
+    "order": 769
+  },
+  {
+    "id": 687,
+    "identifier": "malamar",
+    "name": "Malamar",
+    "height": 15,
+    "weight": 470,
+    "order": 770
+  },
+  {
+    "id": 688,
+    "identifier": "binacle",
+    "name": "Binacle",
+    "height": 5,
+    "weight": 310,
+    "order": 771
+  },
+  {
+    "id": 689,
+    "identifier": "barbaracle",
+    "name": "Barbaracle",
+    "height": 13,
+    "weight": 960,
+    "order": 772
+  },
+  {
+    "id": 690,
+    "identifier": "skrelp",
+    "name": "Skrelp",
+    "height": 5,
+    "weight": 73,
+    "order": 773
+  },
+  {
+    "id": 691,
+    "identifier": "dragalge",
+    "name": "Dragalge",
+    "height": 18,
+    "weight": 815,
+    "order": 774
+  },
+  {
+    "id": 692,
+    "identifier": "clauncher",
+    "name": "Clauncher",
+    "height": 5,
+    "weight": 83,
+    "order": 775
+  },
+  {
+    "id": 693,
+    "identifier": "clawitzer",
+    "name": "Clawitzer",
+    "height": 13,
+    "weight": 353,
+    "order": 776
+  },
+  {
+    "id": 694,
+    "identifier": "helioptile",
+    "name": "Helioptile",
+    "height": 5,
+    "weight": 60,
+    "order": 777
+  },
+  {
+    "id": 695,
+    "identifier": "heliolisk",
+    "name": "Heliolisk",
+    "height": 10,
+    "weight": 210,
+    "order": 778
+  },
+  {
+    "id": 696,
+    "identifier": "tyrunt",
+    "name": "Tyrunt",
+    "height": 8,
+    "weight": 260,
+    "order": 779
+  },
+  {
+    "id": 697,
+    "identifier": "tyrantrum",
+    "name": "Tyrantrum",
+    "height": 25,
+    "weight": 2700,
+    "order": 780
+  },
+  {
+    "id": 698,
+    "identifier": "amaura",
+    "name": "Amaura",
+    "height": 13,
+    "weight": 252,
+    "order": 781
+  },
+  {
+    "id": 699,
+    "identifier": "aurorus",
+    "name": "Aurorus",
+    "height": 27,
+    "weight": 2250,
+    "order": 782
+  },
+  {
+    "id": 700,
+    "identifier": "sylveon",
+    "name": "Sylveon",
+    "height": 10,
+    "weight": 235,
+    "order": 185
+  },
+  {
+    "id": 701,
+    "identifier": "hawlucha",
+    "name": "Hawlucha",
+    "height": 8,
+    "weight": 215,
+    "order": 783
+  },
+  {
+    "id": 702,
+    "identifier": "dedenne",
+    "name": "Dedenne",
+    "height": 2,
+    "weight": 22,
+    "order": 784
+  },
+  {
+    "id": 703,
+    "identifier": "carbink",
+    "name": "Carbink",
+    "height": 3,
+    "weight": 57,
+    "order": 785
+  },
+  {
+    "id": 704,
+    "identifier": "goomy",
+    "name": "Goomy",
+    "height": 3,
+    "weight": 28,
+    "order": 786
+  },
+  {
+    "id": 705,
+    "identifier": "sliggoo",
+    "name": "Sliggoo",
+    "height": 8,
+    "weight": 175,
+    "order": 787
+  },
+  {
+    "id": 706,
+    "identifier": "goodra",
+    "name": "Goodra",
+    "height": 20,
+    "weight": 1505,
+    "order": 788
+  },
+  {
+    "id": 707,
+    "identifier": "klefki",
+    "name": "Klefki",
+    "height": 2,
+    "weight": 30,
+    "order": 789
+  },
+  {
+    "id": 708,
+    "identifier": "phantump",
+    "name": "Phantump",
+    "height": 4,
+    "weight": 70,
+    "order": 790
+  },
+  {
+    "id": 709,
+    "identifier": "trevenant",
+    "name": "Trevenant",
+    "height": 15,
+    "weight": 710,
+    "order": 791
+  },
+  {
+    "id": 710,
+    "identifier": "pumpkaboo-average",
+    "name": "Pumpkaboo Average",
+    "height": 4,
+    "weight": 50,
+    "order": 793
+  },
+  {
+    "id": 711,
+    "identifier": "gourgeist-average",
+    "name": "Gourgeist Average",
+    "height": 9,
+    "weight": 125,
+    "order": 797
+  },
+  {
+    "id": 712,
+    "identifier": "bergmite",
+    "name": "Bergmite",
+    "height": 10,
+    "weight": 995,
+    "order": 800
+  },
+  {
+    "id": 713,
+    "identifier": "avalugg",
+    "name": "Avalugg",
+    "height": 20,
+    "weight": 5050,
+    "order": 801
+  },
+  {
+    "id": 714,
+    "identifier": "noibat",
+    "name": "Noibat",
+    "height": 5,
+    "weight": 80,
+    "order": 802
+  },
+  {
+    "id": 715,
+    "identifier": "noivern",
+    "name": "Noivern",
+    "height": 15,
+    "weight": 850,
+    "order": 803
+  },
+  {
+    "id": 716,
+    "identifier": "xerneas",
+    "name": "Xerneas",
+    "height": 30,
+    "weight": 2150,
+    "order": 804
+  },
+  {
+    "id": 717,
+    "identifier": "yveltal",
+    "name": "Yveltal",
+    "height": 58,
+    "weight": 2030,
+    "order": 805
+  },
+  {
+    "id": 718,
+    "identifier": "zygarde",
+    "name": "Zygarde",
+    "height": 50,
+    "weight": 3050,
+    "order": 806
+  },
+  {
+    "id": 719,
+    "identifier": "diancie",
+    "name": "Diancie",
+    "height": 7,
+    "weight": 88,
+    "order": 807
+  },
+  {
+    "id": 720,
+    "identifier": "hoopa",
+    "name": "Hoopa",
+    "height": 5,
+    "weight": 90,
+    "order": 809
+  },
+  {
+    "id": 721,
+    "identifier": "volcanion",
+    "name": "Volcanion",
+    "height": 17,
+    "weight": 1950,
+    "order": 811
+  },
+  {
+    "id": 10001,
+    "identifier": "deoxys-attack",
+    "name": "Deoxys Attack",
+    "height": 17,
+    "weight": 608,
+    "order": 470
+  },
+  {
+    "id": 10002,
+    "identifier": "deoxys-defense",
+    "name": "Deoxys Defense",
+    "height": 17,
+    "weight": 608,
+    "order": 471
+  },
+  {
+    "id": 10003,
+    "identifier": "deoxys-speed",
+    "name": "Deoxys Speed",
+    "height": 17,
+    "weight": 608,
+    "order": 472
+  },
+  {
+    "id": 10004,
+    "identifier": "wormadam-sandy",
+    "name": "Wormadam Sandy",
+    "height": 5,
+    "weight": 65,
+    "order": 498
+  },
+  {
+    "id": 10005,
+    "identifier": "wormadam-trash",
+    "name": "Wormadam Trash",
+    "height": 5,
+    "weight": 65,
+    "order": 499
+  },
+  {
+    "id": 10006,
+    "identifier": "shaymin-sky",
+    "name": "Shaymin Sky",
+    "height": 4,
+    "weight": 52,
+    "order": 562
+  },
+  {
+    "id": 10007,
+    "identifier": "giratina-origin",
+    "name": "Giratina Origin",
+    "height": 69,
+    "weight": 6500,
+    "order": 556
+  },
+  {
+    "id": 10008,
+    "identifier": "rotom-heat",
+    "name": "Rotom Heat",
+    "height": 3,
+    "weight": 3,
+    "order": 543
+  },
+  {
+    "id": 10009,
+    "identifier": "rotom-wash",
+    "name": "Rotom Wash",
+    "height": 3,
+    "weight": 3,
+    "order": 544
+  },
+  {
+    "id": 10010,
+    "identifier": "rotom-frost",
+    "name": "Rotom Frost",
+    "height": 3,
+    "weight": 3,
+    "order": 545
+  },
+  {
+    "id": 10011,
+    "identifier": "rotom-fan",
+    "name": "Rotom Fan",
+    "height": 3,
+    "weight": 3,
+    "order": 546
+  },
+  {
+    "id": 10012,
+    "identifier": "rotom-mow",
+    "name": "Rotom Mow",
+    "height": 3,
+    "weight": 3,
+    "order": 547
+  },
+  {
+    "id": 10013,
+    "identifier": "castform-sunny",
+    "name": "Castform Sunny",
+    "height": 3,
+    "weight": 8,
+    "order": 420
+  },
+  {
+    "id": 10014,
+    "identifier": "castform-rainy",
+    "name": "Castform Rainy",
+    "height": 3,
+    "weight": 8,
+    "order": 421
+  },
+  {
+    "id": 10015,
+    "identifier": "castform-snowy",
+    "name": "Castform Snowy",
+    "height": 3,
+    "weight": 8,
+    "order": 422
+  },
+  {
+    "id": 10016,
+    "identifier": "basculin-blue-striped",
+    "name": "Basculin Blue Striped",
+    "height": 10,
+    "weight": 180,
+    "order": 622
+  },
+  {
+    "id": 10017,
+    "identifier": "darmanitan-zen",
+    "name": "Darmanitan Zen",
+    "height": 13,
+    "weight": 929,
+    "order": 628
+  },
+  {
+    "id": 10018,
+    "identifier": "meloetta-pirouette",
+    "name": "Meloetta Pirouette",
+    "height": 6,
+    "weight": 65,
+    "order": 728
+  },
+  {
+    "id": 10019,
+    "identifier": "tornadus-therian",
+    "name": "Tornadus Therian",
+    "height": 14,
+    "weight": 630,
+    "order": 715
+  },
+  {
+    "id": 10020,
+    "identifier": "thundurus-therian",
+    "name": "Thundurus Therian",
+    "height": 30,
+    "weight": 610,
+    "order": 717
+  },
+  {
+    "id": 10021,
+    "identifier": "landorus-therian",
+    "name": "Landorus Therian",
+    "height": 13,
+    "weight": 680,
+    "order": 721
+  },
+  {
+    "id": 10022,
+    "identifier": "kyurem-black",
+    "name": "Kyurem Black",
+    "height": 33,
+    "weight": 3250,
+    "order": 723
+  },
+  {
+    "id": 10023,
+    "identifier": "kyurem-white",
+    "name": "Kyurem White",
+    "height": 36,
+    "weight": 3250,
+    "order": 724
+  },
+  {
+    "id": 10024,
+    "identifier": "keldeo-resolute",
+    "name": "Keldeo Resolute",
+    "height": 14,
+    "weight": 485,
+    "order": 726
+  },
+  {
+    "id": 10025,
+    "identifier": "meowstic-female",
+    "name": "Meowstic Female",
+    "height": 6,
+    "weight": 85,
+    "order": 760
+  },
+  {
+    "id": 10026,
+    "identifier": "aegislash-blade",
+    "name": "Aegislash Blade",
+    "height": 17,
+    "weight": 530,
+    "order": 764
+  },
+  {
+    "id": 10027,
+    "identifier": "pumpkaboo-small",
+    "name": "Pumpkaboo Small",
+    "height": 3,
+    "weight": 35,
+    "order": 792
+  },
+  {
+    "id": 10028,
+    "identifier": "pumpkaboo-large",
+    "name": "Pumpkaboo Large",
+    "height": 5,
+    "weight": 75,
+    "order": 794
+  },
+  {
+    "id": 10029,
+    "identifier": "pumpkaboo-super",
+    "name": "Pumpkaboo Super",
+    "height": 8,
+    "weight": 150,
+    "order": 795
+  },
+  {
+    "id": 10030,
+    "identifier": "gourgeist-small",
+    "name": "Gourgeist Small",
+    "height": 7,
+    "weight": 95,
+    "order": 796
+  },
+  {
+    "id": 10031,
+    "identifier": "gourgeist-large",
+    "name": "Gourgeist Large",
+    "height": 11,
+    "weight": 140,
+    "order": 798
+  },
+  {
+    "id": 10032,
+    "identifier": "gourgeist-super",
+    "name": "Gourgeist Super",
+    "height": 17,
+    "weight": 390,
+    "order": 799
+  },
+  {
+    "id": 10033,
+    "identifier": "venusaur-mega",
+    "name": "Venusaur Mega",
+    "height": 24,
+    "weight": 1555,
+    "order": 4
+  },
+  {
+    "id": 10034,
+    "identifier": "charizard-mega-x",
+    "name": "Charizard Mega X",
+    "height": 17,
+    "weight": 1105,
+    "order": 8
+  },
+  {
+    "id": 10035,
+    "identifier": "charizard-mega-y",
+    "name": "Charizard Mega Y",
+    "height": 17,
+    "weight": 1005,
+    "order": 9
+  },
+  {
+    "id": 10036,
+    "identifier": "blastoise-mega",
+    "name": "Blastoise Mega",
+    "height": 16,
+    "weight": 1011,
+    "order": 13
+  },
+  {
+    "id": 10037,
+    "identifier": "alakazam-mega",
+    "name": "Alakazam Mega",
+    "height": 12,
+    "weight": 480,
+    "order": 84
+  },
+  {
+    "id": 10038,
+    "identifier": "gengar-mega",
+    "name": "Gengar Mega",
+    "height": 14,
+    "weight": 405,
+    "order": 117
+  },
+  {
+    "id": 10039,
+    "identifier": "kangaskhan-mega",
+    "name": "Kangaskhan Mega",
+    "height": 22,
+    "weight": 1000,
+    "order": 148
+  },
+  {
+    "id": 10040,
+    "identifier": "pinsir-mega",
+    "name": "Pinsir Mega",
+    "height": 17,
+    "weight": 590,
+    "order": 170
+  },
+  {
+    "id": 10041,
+    "identifier": "gyarados-mega",
+    "name": "Gyarados Mega",
+    "height": 65,
+    "weight": 3050,
+    "order": 174
+  },
+  {
+    "id": 10042,
+    "identifier": "aerodactyl-mega",
+    "name": "Aerodactyl Mega",
+    "height": 21,
+    "weight": 790,
+    "order": 194
+  },
+  {
+    "id": 10043,
+    "identifier": "mewtwo-mega-x",
+    "name": "Mewtwo Mega X",
+    "height": 23,
+    "weight": 1270,
+    "order": 204
+  },
+  {
+    "id": 10044,
+    "identifier": "mewtwo-mega-y",
+    "name": "Mewtwo Mega Y",
+    "height": 15,
+    "weight": 330,
+    "order": 205
+  },
+  {
+    "id": 10045,
+    "identifier": "ampharos-mega",
+    "name": "Ampharos Mega",
+    "height": 14,
+    "weight": 615,
+    "order": 234
+  },
+  {
+    "id": 10046,
+    "identifier": "scizor-mega",
+    "name": "Scizor Mega",
+    "height": 20,
+    "weight": 1250,
+    "order": 160
+  },
+  {
+    "id": 10047,
+    "identifier": "heracross-mega",
+    "name": "Heracross Mega",
+    "height": 17,
+    "weight": 625,
+    "order": 269
+  },
+  {
+    "id": 10048,
+    "identifier": "houndoom-mega",
+    "name": "Houndoom Mega",
+    "height": 19,
+    "weight": 495,
+    "order": 288
+  },
+  {
+    "id": 10049,
+    "identifier": "tyranitar-mega",
+    "name": "Tyranitar Mega",
+    "height": 25,
+    "weight": 2550,
+    "order": 300
+  },
+  {
+    "id": 10050,
+    "identifier": "blaziken-mega",
+    "name": "Blaziken Mega",
+    "height": 19,
+    "weight": 520,
+    "order": 311
+  },
+  {
+    "id": 10051,
+    "identifier": "gardevoir-mega",
+    "name": "Gardevoir Mega",
+    "height": 16,
+    "weight": 484,
+    "order": 338
+  },
+  {
+    "id": 10052,
+    "identifier": "mawile-mega",
+    "name": "Mawile Mega",
+    "height": 10,
+    "weight": 235,
+    "order": 363
+  },
+  {
+    "id": 10053,
+    "identifier": "aggron-mega",
+    "name": "Aggron Mega",
+    "height": 22,
+    "weight": 3950,
+    "order": 367
+  },
+  {
+    "id": 10054,
+    "identifier": "medicham-mega",
+    "name": "Medicham Mega",
+    "height": 13,
+    "weight": 315,
+    "order": 370
+  },
+  {
+    "id": 10055,
+    "identifier": "manectric-mega",
+    "name": "Manectric Mega",
+    "height": 18,
+    "weight": 440,
+    "order": 373
+  },
+  {
+    "id": 10056,
+    "identifier": "banette-mega",
+    "name": "Banette Mega",
+    "height": 12,
+    "weight": 130,
+    "order": 426
+  },
+  {
+    "id": 10057,
+    "identifier": "absol-mega",
+    "name": "Absol Mega",
+    "height": 12,
+    "weight": 490,
+    "order": 434
+  },
+  {
+    "id": 10058,
+    "identifier": "garchomp-mega",
+    "name": "Garchomp Mega",
+    "height": 19,
+    "weight": 950,
+    "order": 526
+  },
+  {
+    "id": 10059,
+    "identifier": "lucario-mega",
+    "name": "Lucario Mega",
+    "height": 13,
+    "weight": 575,
+    "order": 529
+  },
+  {
+    "id": 10060,
+    "identifier": "abomasnow-mega",
+    "name": "Abomasnow Mega",
+    "height": 27,
+    "weight": 1850,
+    "order": 541
+  },
+  {
+    "id": 10061,
+    "identifier": "floette-eternal",
+    "name": "Floette Eternal",
+    "height": 2,
+    "weight": 9,
+    "order": 751
+  },
+  {
+    "id": 10062,
+    "identifier": "latias-mega",
+    "name": "Latias Mega",
+    "height": 18,
+    "weight": 520,
+    "order": 459
+  },
+  {
+    "id": 10063,
+    "identifier": "latios-mega",
+    "name": "Latios Mega",
+    "height": 23,
+    "weight": 700,
+    "order": 461
+  },
+  {
+    "id": 10064,
+    "identifier": "swampert-mega",
+    "name": "Swampert Mega",
+    "height": 19,
+    "weight": 1020,
+    "order": 315
+  },
+  {
+    "id": 10065,
+    "identifier": "sceptile-mega",
+    "name": "Sceptile Mega",
+    "height": 19,
+    "weight": 552,
+    "order": 307
+  },
+  {
+    "id": 10066,
+    "identifier": "sableye-mega",
+    "name": "Sableye Mega",
+    "height": 5,
+    "weight": 1610,
+    "order": 361
+  },
+  {
+    "id": 10067,
+    "identifier": "altaria-mega",
+    "name": "Altaria Mega",
+    "height": 15,
+    "weight": 206,
+    "order": 402
+  },
+  {
+    "id": 10068,
+    "identifier": "gallade-mega",
+    "name": "Gallade Mega",
+    "height": 16,
+    "weight": 564,
+    "order": 340
+  },
+  {
+    "id": 10069,
+    "identifier": "audino-mega",
+    "name": "Audino Mega",
+    "height": 15,
+    "weight": 320,
+    "order": 602
+  },
+  {
+    "id": 10070,
+    "identifier": "sharpedo-mega",
+    "name": "Sharpedo Mega",
+    "height": 25,
+    "weight": 1303,
+    "order": 385
+  },
+  {
+    "id": 10071,
+    "identifier": "slowbro-mega",
+    "name": "Slowbro Mega",
+    "height": 20,
+    "weight": 1200,
+    "order": 100
+  },
+  {
+    "id": 10072,
+    "identifier": "steelix-mega",
+    "name": "Steelix Mega",
+    "height": 105,
+    "weight": 7400,
+    "order": 120
+  },
+  {
+    "id": 10073,
+    "identifier": "pidgeot-mega",
+    "name": "Pidgeot Mega",
+    "height": 22,
+    "weight": 505,
+    "order": 24
+  },
+  {
+    "id": 10074,
+    "identifier": "glalie-mega",
+    "name": "Glalie Mega",
+    "height": 21,
+    "weight": 3502,
+    "order": 437
+  },
+  {
+    "id": 10075,
+    "identifier": "diancie-mega",
+    "name": "Diancie Mega",
+    "height": 11,
+    "weight": 278,
+    "order": 808
+  },
+  {
+    "id": 10076,
+    "identifier": "metagross-mega",
+    "name": "Metagross Mega",
+    "height": 25,
+    "weight": 9429,
+    "order": 454
+  },
+  {
+    "id": 10077,
+    "identifier": "kyogre-primal",
+    "name": "Kyogre Primal",
+    "height": 98,
+    "weight": 4300,
+    "order": 463
+  },
+  {
+    "id": 10078,
+    "identifier": "groudon-primal",
+    "name": "Groudon Primal",
+    "height": 50,
+    "weight": 9997,
+    "order": 465
+  },
+  {
+    "id": 10079,
+    "identifier": "rayquaza-mega",
+    "name": "Rayquaza Mega",
+    "height": 108,
+    "weight": 3920,
+    "order": 467
+  },
+  {
+    "id": 10080,
+    "identifier": "pikachu-rock-star",
+    "name": "Pikachu Rock Star",
+    "height": 40,
+    "weight": 60,
+    "order": 34
+  },
+  {
+    "id": 10081,
+    "identifier": "pikachu-belle",
+    "name": "Pikachu Belle",
+    "height": 40,
+    "weight": 60,
+    "order": 35
+  },
+  {
+    "id": 10082,
+    "identifier": "pikachu-pop-star",
+    "name": "Pikachu Pop Star",
+    "height": 40,
+    "weight": 60,
+    "order": 36
+  },
+  {
+    "id": 10083,
+    "identifier": "pikachu-phd",
+    "name": "Pikachu Phd",
+    "height": 40,
+    "weight": 60,
+    "order": 37
+  },
+  {
+    "id": 10084,
+    "identifier": "pikachu-libre",
+    "name": "Pikachu Libre",
+    "height": 40,
+    "weight": 60,
+    "order": 38
+  },
+  {
+    "id": 10085,
+    "identifier": "pikachu-cosplay",
+    "name": "Pikachu Cosplay",
+    "height": 40,
+    "weight": 60,
+    "order": 33
+  },
+  {
+    "id": 10086,
+    "identifier": "hoopa-unbound",
+    "name": "Hoopa Unbound",
+    "height": 65,
+    "weight": 4900,
+    "order": 810
+  },
+  {
+    "id": 10087,
+    "identifier": "camerupt-mega",
+    "name": "Camerupt Mega",
+    "height": 25,
+    "weight": 3205,
+    "order": 390
+  },
+  {
+    "id": 10088,
+    "identifier": "lopunny-mega",
+    "name": "Lopunny Mega",
+    "height": 13,
+    "weight": 283,
+    "order": 514
+  },
+  {
+    "id": 10089,
+    "identifier": "salamence-mega",
+    "name": "Salamence Mega",
+    "height": 18,
+    "weight": 1126,
+    "order": 450
+  },
+  {
+    "id": 10090,
+    "identifier": "beedrill-mega",
+    "name": "Beedrill Mega",
+    "height": 14,
+    "weight": 405,
+    "order": 20
+  }
+]
