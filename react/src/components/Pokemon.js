@@ -14,7 +14,7 @@ class Pokemon extends Component {
         <div>
         <img
           alt={name}
-          src={require(`../data/sprites/${id}.png`)}
+          src={'https://codeheroics.github.io/pokemon-react/static/media/1.e5a3f9f7.png'}
         />
         </div>
         {name}

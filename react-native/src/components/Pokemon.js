@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
-import { View, Image, Text, StyleSheet } from 'react-native'
+import { TouchableWithoutFeedback, View, Image, Text, StyleSheet } from 'react-native'
 
 const styles = StyleSheet.create({
-  container: { flexDirection: 'column' },
-  caught: { opacity: 1 },
-  uncaught: { opacity: .3 }
+  container: { height: 112 },
+  caught: { opacity: 1, alignItems: 'center', },
+  uncaught: { opacity: .3, alignItems: 'center', },
+  image: { width: 96, height: 96 }
 })
 
 class Pokemon extends Component {
@@ -16,15 +17,18 @@ class Pokemon extends Component {
       <View
         style={styles.container}
         key={identifier}
-        onClick={this.onSelect}
       >
-        <View style={{ styles[caught ? 'caught' : 'uncaught'] }}>
-        <Image
-          alt={name}
-          src={require(`../data/sprites/${id}.png`)}
-        />
-        </View>
-        <Text>{name}</Text>
+        <TouchableWithoutFeedback onPress={this.onSelect}>
+          <View style={styles[caught ? 'caught' : 'uncaught']}>
+            <Image
+              source={{
+                uri: `https://codeheroics.github.io/pokemon-sprites/${id}.png`
+              }}
+              style={styles.image}
+            />
+            <Text>{name}</Text>
+          </View>
+        </TouchableWithoutFeedback>
       </View>
     )
   }
