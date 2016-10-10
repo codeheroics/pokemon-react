@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { TouchableWithoutFeedback, View, Image, Text, StyleSheet } from 'react-native'
 
 const styles = StyleSheet.create({
-  container: { height: 112 },
+  container: { height: 112, padding: 5 },
   caught: { opacity: 1, alignItems: 'center', },
   uncaught: { opacity: .3, alignItems: 'center', },
   image: { width: 96, height: 96 }
