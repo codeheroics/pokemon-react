@@ -25,7 +25,7 @@
 --
 
 ### Core Philosophies
-(screenshot from the website)
+![React Website Screenshot](images/homepage.jpg)
 
 
 --
@@ -36,14 +36,14 @@
 
 --
 
-### The Component.
+### In React, you work with a single concept:
 
-In React, you work with one concept
+#### The Component
 
-It is re-usable, and works with :
-* Props, the attributes which are given to him
-* An internal state
-* A lifecycle (Creation, update, suppression)
+It is re-usable, and has :
+* **Props** (the attributes which are given to him)
+* An internal **State**
+* A **lifecycle** (Creation, update, suppression)
 
 --
 
@@ -51,11 +51,25 @@ It is re-usable, and works with :
 
 React uses JSX, an HTML-like syntax to get recognizable user interfaces.
 
+```js
+class HelloTakeOff extends React.Component {
+  render() {
+    return (
+      <div>Hello TakeOff!</div>
+    )
+  }
+}
+
+ReactDOM.render(<HelloTakeOff />, document.getElementById('root'));
+```
+
 --
 
-# Let's build a Pokedex.
+# Let's write a basic app: a Pokédex.
 
 --
+
+### First, we need a Pokemon component
 
 
 ```js
@@ -65,7 +79,7 @@ class Pokemon extends React.Component {
   render() {
     return (
       <div>
-        <img src={this.props.image} /> {this.props.name}
+        <img src={this.props.image} /> <span>{this.props.name}</span>
       </div>
     )
   }
@@ -92,14 +106,14 @@ class Pikachu extends React.Component {
 
 --
 
-Now let's display multiple pokemons
+Now let's display multiple Pokémons
 
 ```js
 import React from 'react'
 
-const pikachu = { name: "Pikachu", image: pikachuImage }
-const pichu = { name: "Pichu", image: pichuImage}
-const pokemons = [pikachu, pichu]
+const pikachuData = { name: "Pikachu", image: pikachuImage }
+const pichuData = { name: "Pichu", image: pichuImage}
+const pokemons = [pikachuData, pichuDatas]
 
 class Pokemons extends React.Component {
   render() {
@@ -125,28 +139,24 @@ class Pokemons extends React.Component {
 
 --
 
-Which is cool, you know.
-
 We've covered the "learn once" part of the philosophy
 
-So. We've mastered React. And its ideas are cool!
-
-Wouldn't it be great if we were able to write native apps way?
+Wouldn't it be great to start working on the "write anywhere"? part?
 
 --
+
+### I wish I knew how to write mobile apps.
 
 I mean, REAL native apps, not embedded webviews.
 
 --
-
-It seems like a tough goal.
 
 Here's what I know about the native world:
 
 * No HTML
 * No CSS
 * C#, Objective-C or Swift
-* Views.
+* Views
 
 --
 
@@ -156,18 +166,20 @@ Views. Which kinda do work like CSS3's flexboxes.
 
 ### So... If we add some constraints to React...
 
-Like saying that instead of divs, we now only have Views, which are flexbox containers
-Or saying that since we can't use CSS, we're going to style every component and give up the "Cascading" part
+* no HTML... But equivalents: Views, which are flexbox containers
+* no CSS, but elements we can style individually
+
+If we can use JSX, our HTML-like syntax, to compile to something other that HTML...
 
 --
 
-### We get React-Native
+### Then we get React-Native
 
 A way to write native apps for Android, iOS, the Universal Windows Platform, and even Ubuntu.
 
 --
 
-## So. remember our Pokemons?
+# So. remember our Pokedex?
 
 --
 
@@ -179,15 +191,13 @@ class Pokemon extends React.Component {
   render() {
     return (
       <View>
-        <Image source={this.props.image} /><Text>{this.props.name}</Text>
+        <Image source={this.props.image} /> <Text>{this.props.name}</Text>
       </View>
     )
   }
 )
 ```
 --
-
-Multiple Pokémons
 
 ```js
 import React from 'react'
@@ -212,13 +222,15 @@ class Pokemons extends React.Component {
 
 --
 
-* So, that's cool, we've learned once, and we can write everywhere!
+### React-Native
+
+* We've learned once, and we can write everywhere!
 * Now remember, the philosophy here is "learn once, write everywhere", NOT "write once, everywhere"
 
 --
 
-* Which means that sometimes, we've going to have to split some components between their Android and iOS versions for example
-* To follow the OS' patterns
+* To follow the OS' patterns, you may need to split some components between their Android and iOS versions for example
+* Or you may choose to try using common components all the way. It's up to you.
 * But the core of the app is the same.
 
 --
@@ -231,20 +243,26 @@ So we could just apply these restrictions to webapps too, right?
 
 --
 
-# React-Native-Web
+### React-Native-Web
+
+* An exciting project, with some interesting use cases
+* Down the road, may be the way to "write once, everywhere"
 
 --
 
-*demo*
+### Testing
+
+Jest & snapshot testing
 
 --
 
-It's an exciting project, with some interesting use cases, though I wouldn't call it production-ready yet
-Just for this demo I had to ask for a release because the last version available had a bug on a component I wanted to use.
+### Visual Testing
+
+React-Storybook
 
 --
 
-Let's have some fun.
+Now, let's have some fun.
 
 --
 
