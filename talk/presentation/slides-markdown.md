@@ -29,7 +29,6 @@
 ### Core Philosophies
 ![React Website Screenshot](images/homepage.jpg)
 
-
 --
 
 ### What this means (to me)
@@ -352,14 +351,14 @@ Also, more stuff.
   {/* This is a comment in JSX and I hate it */}
 </div>
 ```
-* Is it functional? Is it Object-Oriented? Is it stuck between the two with no way forward?
-* The JS Fatigue Phenomenon
+* Is it functional? Is it Object-Oriented? Is it stuck between the two forever?
+* The JS Fatigue Phenomenon (far from exclusive to React, but still)
 
 --
 
 ### JS Fatigue
 
-React is simple, but the React ecosystem is huge and made of small pieces.
+React is simple, but small, so its ecosystem is huge and made of small pieces.
 
 **Webpack** *Flux* **Redux** *MobX* **Storybook** *Jest* **Sagas** *React-Router* **npm** *ES2015*+...
 
