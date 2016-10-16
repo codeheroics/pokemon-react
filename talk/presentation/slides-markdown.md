@@ -2,13 +2,15 @@
 
 # React : From Web to Native and back
 
+[@codeheroics](http://www.twitter.com/codeheroics) - [codeheroics.com](https://www.codeheroics.com)
+
 --
 
 # Oh, hi! I'm Hugo
 
-* TL1
+* Telecom Lille graduate
+* Freelance front-end developer
 * SFR > TF1 > Le Monde > Vente-Privée > Voyages-SNCF
-* Freelance
 
 --
 
@@ -19,7 +21,7 @@
 
 --
 
-### We're gonna talk about React.
+### We're gonna talk about React
 * An Open-Source "JavaScript library for building user interfaces", pushed by Facebook
 
 --
@@ -49,7 +51,9 @@ It is re-usable, and has :
 
 ### JSX
 
-React uses JSX, an HTML-like syntax to get recognizable user interfaces.
+* HTML-like syntax to describe components rendering
+* Optional, but used by most of the community
+* Ugly... but practical and easy to read.
 
 ```js
 class HelloTakeOff extends React.Component {
@@ -102,11 +106,13 @@ class Pikachu extends React.Component {
       )
   }
 }
+
 ```
+We give to the `Pokemon` Component its name and image as props
 
 --
 
-Now let's display multiple Pokémons
+### Now let's display multiple Pokémons
 
 ```js
 import React from 'react'
@@ -120,38 +126,65 @@ class Pokemons extends React.Component {
     return (
       <div>
         {pokemons.map(pokemon => (
-            <Pokemon name={pokemon.name} image={pokemon.image}
+          <Pokemon name={pokemon.name} image={pokemon.image}
         ))}
       </div>
     )
   }
 }
 ```
+
+Using curly braces switches from JSX to a JS context
 --
 
 ### Finally, let's search & filter
+
+```js
+
+class Search extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = { searchTerm: '' }
+  }
+
+  search = (event) => {
+    this.setState({ searchTerm: event.target.value })
+  }
+
+  render() {
+    const { searchTerm } = this.state
+    const { pokemons } = this.props
+    const displayedPokemons = (pokemons.filter(({ identifier }) => identifier.includes(searchTerm)))
+
+    return (
+      <div className="Search">
+          <input type="text" onChange={this.search} />
+          <Pokemons pokemons={displayedPokemons} />
+      </div>
+    )
+  }
+}
+```
 
 --
 
 ### We can now build React apps!
 
-#### We know the main concepts.
-
---
+#### We know the main concept.
 
 We've covered the "learn once" part of the philosophy
 
-Wouldn't it be great to start working on the "write anywhere"? part?
+Let's work on the "write anywhere" part
 
 --
 
-### I wish I knew how to write mobile apps.
+### I wish I knew how to write mobile apps
 
 I mean, REAL native apps, not embedded webviews.
 
 --
 
-Here's what I know about the native world:
+### Here's what I know about the native world:
 
 * No HTML
 * No CSS
@@ -183,21 +216,31 @@ A way to write native apps for Android, iOS, the Universal Windows Platform, and
 
 --
 
+### Here's our Pokemon, ready for React-Native
+
 ```js
 import React from 'react'
-import { View, Text, Image } from 'react-native'
+import { View, Text, Image, StyleSheet } from 'react-native'
+
+const styles = StyleSheet.create({
+  container: { height: 112, flexDirection: 'column', alignItems: 'center' },
+  image: { width: 96, height: 96 }
+})
+
 
 class Pokemon extends React.Component {
   render() {
     return (
-      <View>
-        <Image source={this.props.image} /> <Text>{this.props.name}</Text>
+      <View style={styles.container}>
+        <Image source={this.props.image} /><Text>{this.props.name}</Text>
       </View>
     )
   }
 )
 ```
 --
+
+### Here's our Pokemon list, ready for React-Native
 
 ```js
 import React from 'react'
@@ -212,7 +255,7 @@ class Pokemons extends React.Component {
     return (
       <ScrollView>
         {pokemons.map(pokemon => (
-            <Pokemon name={pokemon.name} image={pokemon.image}
+          <Pokemon name={pokemon.name} image={pokemon.image}
         ))}
       </ScrollView>
     )
@@ -222,16 +265,47 @@ class Pokemons extends React.Component {
 
 --
 
+### And finally, our Search Component
+
+```js
+
+class Search extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = { searchTerm: '' }
+  }
+
+  search = (searchTerm) => {
+    this.setState({ searchTerm })
+  }
+
+  render() {
+    const { searchTerm } = this.state
+    const { pokemons } = this.props
+    const displayedPokemons = (pokemons.filter(({ identifier }) => identifier.includes(searchTerm)))
+
+    return (
+      <View>
+          <View><TextInput onChangeText={this.search} /></View>
+          <Pokemons pokemons={displayedPokemons} />
+      </View>
+    )
+  }
+}
+```
+
+
+--
+
 ### React-Native
 
 * We've learned once, and we can write everywhere!
 * Now remember, the philosophy here is "learn once, write everywhere", NOT "write once, everywhere"
+* To follow OS patterns, you can split code between versions
 
---
-
-* To follow the OS' patterns, you may need to split some components between their Android and iOS versions for example
-* Or you may choose to try using common components all the way. It's up to you.
-* But the core of the app is the same.
+```js
+return Platform.OS === 'ios' ? <PickerIOS /> : <Picker />
+```
 
 --
 
@@ -273,31 +347,45 @@ Also, more stuff.
 ### What I don't like about React
 
 * JSX is ugly, and the community is fine with it.
-  * {/* This is a comment in JSX */}
+```js
+<div>
+  {/* This is a comment in JSX and I hate it */}
+</div>
+```
 * Is it functional? Is it Object-Oriented? Is it stuck between the two with no way forward?
 * The JS Fatigue Phenomenon
 
 --
 
-## JS Fatigue
+### JS Fatigue
 
 React is simple, but the React ecosystem is huge and made of small pieces.
 
-Webpack Flux Redux MobX Storybook Jest Sagas React-Router npm ES2015+...
+**Webpack** *Flux* **Redux** *MobX* **Storybook** *Jest* **Sagas** *React-Router* **npm** *ES2015*+...
 
 It makes me kinda sad to think developers are tired, when we've never solved problems so well.
 
 
 --
 
-# We have not "solved" front-end development.
+### We have not "solved" front-end development.
 
 But we're doing our very best to find a good, easy to reason about solution.
 
 --
 
-# For now, React is the best one I have.
+# For now, React is the best solution I have.
 
 --
 
-Thanks.
+# Thanks.
+
+```js
+<Speaker
+  name="Hugo Agbonon"
+  twitter="@codeheroics"
+  website="https://www.codeheroics.com"
+  freelance
+  isReadyToAnswerQuestions
+/>
+```
