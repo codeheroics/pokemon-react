@@ -238,8 +238,8 @@ class Pokemons extends React.Component {
 ### By the way
 
 Our React-Native code looks a lot like our React code
-With just an extra set of restrictions
-So we could just apply these restrictions to webapps too, right?
+With just an extra set of constraints
+So we could just apply these constraints to webapps too, right?
 
 --
 
@@ -267,6 +267,36 @@ Now, let's have some fun.
 --
 
 Also, more stuff.
+
+--
+
+### What I don't like about React
+
+* JSX is ugly, and the community is fine with it.
+  * {/* This is a comment in JSX */}
+* Is it functional? Is it Object-Oriented? Is it stuck between the two with no way forward?
+* The JS Fatigue Phenomenon
+
+--
+
+## JS Fatigue
+
+React is simple, but the React ecosystem is huge and made of small pieces.
+
+Webpack Flux Redux MobX Storybook Jest Sagas React-Router npm ES2015+...
+
+It makes me kinda sad to think developers are tired, when we've never solved problems so well.
+
+
+--
+
+# We have not "solved" front-end development.
+
+But we're doing our very best to find a good, easy to reason about solution.
+
+--
+
+# For now, React is the best one I have.
 
 --
 
