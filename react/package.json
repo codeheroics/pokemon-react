@@ -54,7 +54,8 @@
     "url-loader": "0.5.7",
     "webpack": "1.13.2",
     "webpack-dev-server": "1.16.1",
-    "whatwg-fetch": "1.0.0"
+    "whatwg-fetch": "1.0.0",
+    "storybook-addon-specifications": "^1.0.15"
   },
   "dependencies": {
     "react": "^15.3.2",
@@ -79,7 +80,8 @@
     },
     "scriptPreprocessor": "<rootDir>/config/jest/transform.js",
     "setupFiles": [
-      "<rootDir>/config/polyfills.js"
+      "<rootDir>/config/polyfills.js",
+      "<rootDir>/config/jest-storybook.js"
     ],
     "testPathIgnorePatterns": [
       "<rootDir>/(build|docs|node_modules)/"
