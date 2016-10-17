@@ -18,9 +18,12 @@ const styles = StyleSheet.create({
     backgroundColor: '#222',
     padding: 20
   },
+  imageContainer: {
+    alignItems: 'center'
+  },
   image: {
     width: 96,
-    height: 96
+    height: 96,
   },
   h1: {
     color: '#FFF',
@@ -72,7 +75,7 @@ class App extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.header}>
-          <Image source={logo} style={styles.image} />
+          <View style={styles.imageContainer}><Image source={logo} style={styles.image} /></View>
           <View><Text style={styles.h1}>Welcome to Pokémon-React</Text></View>
           <View><Text style={styles.h2}>Gotta catch'em all! {caughtNb} already!</Text></View>
         </View>

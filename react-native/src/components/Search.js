@@ -6,6 +6,9 @@ import Pokemons from './Pokemons'
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+  },
+  textInputContainer: {
+    alignItems: 'center'
   }
 })
 
@@ -31,7 +34,7 @@ class Search extends Component {
 
     return (
       <View style={styles.container}>
-        <View>
+        <View style={styles.textInputContainer}>
           <TextInput
             onChangeText={this.search}
             placeholder="Enter a Pokémon name"
