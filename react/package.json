@@ -5,7 +5,8 @@
   "homepage": "https://codeheroics.github.io/pokemon-react",
   "devDependencies": {
     "react-scripts": "0.4.3",
-    "react-test-renderer": "^15.3.2"
+    "react-test-renderer": "^15.3.2",
+    "@kadira/storybook": "^2.21.0"
   },
   "dependencies": {
     "react": "^15.3.2",
@@ -15,6 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009",
+    "build-storybook": "build-storybook"
   }
 }
