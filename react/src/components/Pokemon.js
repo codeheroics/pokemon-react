@@ -3,6 +3,10 @@ import React, { Component } from 'react'
 class Pokemon extends Component {
   onSelect = () => this.props.onSelect(this.props.id)
 
+  shouldComponentUpdate({ caught }) {
+    return this.props.caught !== caught
+  }
+
   render() {
     const { caught, id, identifier, name } = this.props
     return (
