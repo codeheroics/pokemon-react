@@ -9,7 +9,7 @@
 # Oh, hi! I'm Hugo
 
 * Telecom Lille graduate
-* Freelance front-end developer
+* Freelance JS developer
 * SFR > TF1 > Le Monde > Vente-Privée > Voyages-SNCF
 
 --
@@ -91,7 +91,7 @@ class Pokemon extends React.Component {
 ```
 --
 
-Let's make Pikachu!
+### Let's make Pikachu!
 
 ```js
 import React from 'react'
@@ -325,27 +325,35 @@ So we could just apply these constraints to webapps too, right?
 
 ### Testing
 
-Jest & snapshot testing
+#### Jest & snapshot testing
+
+* Testing components sucks. They change all the time.
+* Snapshot testing is an elegant solution to that.
 
 --
 
 ### Visual Testing
 
-React-Storybook
+#### React-Storybook
+
+* Automatic testing is cool...
+* But automatic testing won't tell me if my component looks terrible
 
 --
 
-Now, let's have some fun.
+### I probably don't have time to talk about this
 
---
+But check out
+* React-Music
+* React-Game-Kit
 
-Also, more stuff.
+for some great experiments of what is being done with React!
 
 --
 
 ### What I don't like about React
 
-* JSX is ugly, and the community is fine with it.
+* JSX is ugly, and the community is fine with it. There are alternatives, but it still feels like the best solution.
 ```js
 <div>
   {/* This is a comment in JSX and I hate it */}
