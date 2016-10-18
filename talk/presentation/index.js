@@ -15,7 +15,7 @@ import {
   Spectacle,
   // Text,
 } from 'spectacle';
-
+import CodeSlide from 'spectacle-code-slide';
 // Import image preloader util
 import preloader from 'spectacle/lib/utils/preloader';
 
@@ -143,17 +143,96 @@ ReactDOM.render(<HelloTakeOff />, document.getElementById('root'));`
           {basicSlide(
             `Let's write a basic React app: A Pokedex`
           )}
-          {basicSlide(
-            `First, we need a Pokemon component`
-          )}
+          <CodeSlide
+            transition={[]}
+            lang="js"
+            code={
+`import React from 'react'
+
+class Pokemon extends React.Component {
+  render() {
+    return (
+      <div>
+        <img src={this.props.image} />
+        <span>{this.props.name}</span>
+      </div>
+    )
+  }
+)`
+            }
+            ranges={[
+              { loc: [0, 1], title: 'Loading React' },
+              { loc: [2, 3], title: 'Creating a React Component' },
+              { loc: [3, 11], title: 'Rendering some JSX' },
+              { loc: [6, 8], title: 'We read data from the props' },
+            ]}
+          />
           {basicSlide(
             `Then, we can create Pikachu`,
             'We give to the `Pokemon` Component its name and image as props'
           )}
+          <CodeSlide
+            transition={[]}
+            lang="js"
+            code={
+`import React from 'react'
+
+const pikachuImage = 'https://codeheroics.github.io/pokemon-sprites/25.png'
+
+class Pikachu extends React.Component {
+  render() {
+    return (
+        <Pokemon
+          name="Pikachu"
+          image={pikachuImage}
+        />
+      )
+  }
+}`
+            }
+            ranges={[
+              { loc: [0, 1], title: 'Loading React' },
+              { loc: [4, 5], title: 'Creating a Pikachu Component' },
+              { loc: [5, 13], title: 'Using our Pokemon Component' },
+            ]}
+          />
           {basicSlide(
             `Now let's display multiple Pokémons`,
             'Using curly braces switches from JSX to a JS context'
           )}
+
+          <CodeSlide
+            transition={[]}
+            lang="js"
+            code={
+`import React from 'react'
+
+const pikachuData = { name: "Pikachu", image: pikachuImage }
+const pichuData = { name: "Pichu", image: pichuImage}
+const pokemons = [pikachuData, pichuDatas]
+
+class Pokemons extends React.Component {
+  render() {
+    return (
+      <div>
+        {pokemons.map(pokemon => (
+          <Pokemon
+            name={pokemon.name}
+            image={pokemon.image}
+          />
+        ))}
+      </div>
+    )
+  }
+}`
+            }
+            ranges={[
+              { loc: [0, 1], title: 'Loading React' },
+              { loc: [2, 5], title: 'Preparing an array of data' },
+              { loc: [6, 7], title: 'Creating a Pokemons Component' },
+              { loc: [9, 17], title: 'Using map to get multiple Pokemon Components' },
+            ]}
+          />
           {basicSlide(
             `Finally, let's search & filter`
           )}

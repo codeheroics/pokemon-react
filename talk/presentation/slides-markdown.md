@@ -125,7 +125,7 @@ class Pokemons extends React.Component {
     return (
       <div>
         {pokemons.map(pokemon => (
-          <Pokemon name={pokemon.name} image={pokemon.image}
+          <Pokemon name={pokemon.name} image={pokemon.image} />
         ))}
       </div>
     )
