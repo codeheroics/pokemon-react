@@ -215,7 +215,7 @@ A way to write native apps for Android, iOS, the Universal Windows Platform, and
 
 --
 
-### Here's our Pokemon, ready for React-Native
+### Here's our Pokemon Component, ready for React-Native
 
 ```js
 import React from 'react'
@@ -310,9 +310,12 @@ return Platform.OS === 'ios' ? <PickerIOS /> : <Picker />
 
 ### By the way
 
-Our React-Native code looks a lot like our React code
-With just an extra set of constraints
-So we could just apply these constraints to webapps too, right?
+Our React-Native code looks a lot like our previous React code
+There are just extra constraints and components with a different name
+
+--
+
+### Couldn't we just apply these constraints to webapps too?
 
 --
 
