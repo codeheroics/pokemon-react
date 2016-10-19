@@ -237,6 +237,61 @@ class Pokemons extends React.Component {
             `Finally, let's search & filter`
           )}
 
+          <CodeSlide
+            transition={[]}
+            lang="js"
+            code={
+`import React, { Component } from 'react'
+
+import Pokemons from './Pokemons'
+
+class Search extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      pokemons: allPokemons
+    }
+  }
+
+  search = (event) => {
+    const searchTerm = event.target.value
+    this.setState({
+      pokemons: pokemons.filter(
+        ({ identifier }) => (
+          identifier.includes(searchTerm)
+        )
+      )
+    })
+  }
+
+  render() {
+    const { onSelect } = this.props
+
+    return (
+      <div className="Search">
+        <div>
+          <input
+            type="text"
+            onChange={this.search}
+          />
+        </div>
+        <Pokemons
+          pokemons={this.state.pokemons}
+          onSelect={onSelect}
+        />
+      </div>
+    )
+  }
+}`
+            }
+            ranges={[
+              { loc: [5, 11], title: 'Declaring an initial state' },
+              { loc: [29, 33], title: 'Setting an event handler' },
+              { loc: [12, 22], title: 'Updating the state in the event handler' },
+              { loc: [34, 38], title: 'Using the updated info' },
+            ]}
+          />
+
           {basicSlide(
             `We can now build React apps!`,
             [
