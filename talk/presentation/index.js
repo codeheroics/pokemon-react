@@ -333,14 +333,126 @@ class Search extends Component {
           )}
 
           {basicSlide(
-            `Here's our Pokemon Component, ready for React-Native`,
+            `Our Pokemon Component, ready for React-Native:`,
           )}
+
+          <CodeSlide
+            transition={[]}
+            lang="js"
+            code={
+`import React from 'react'
+import { View, Text, Image, StyleSheet } from 'react-native'
+
+const styles = StyleSheet.create({
+  container: { height: 112, flexDirection: 'column', alignItems: 'center' },
+  image: { width: 96, height: 96 }
+})
+
+
+class Pokemon extends React.Component {
+  render() {
+    return (
+      <View style={styles.container}>
+        <Image source={this.props.image} />
+        <Text>{this.props.name}</Text>
+      </View>
+    )
+  }
+)`
+            }
+            ranges={[
+              { loc: [0, 2], title: 'Load React, Components from React-Native' },
+              { loc: [3, 7], title: `Prepare the Component's styles` },
+              { loc: [9, 19], title: 'Use View, Image, Text' },
+            ]}
+          />
           {basicSlide(
             `Here's our Pokemon list, ready for React-Native`,
           )}
+
+          <CodeSlide
+            transition={[]}
+            lang="js"
+            code={
+`import React from 'react'
+import { ScrollView } from 'react-native'
+
+const pikachu = { name: "Pikachu", image: pikachuImage }
+const pichu = { name: "Pichu", image: pichuImage}
+const pokemons = [pikachu, pichu]
+
+class Pokemons extends React.Component {
+  render() {
+    return (
+      <ScrollView>
+        {pokemons.map(pokemon => (
+          <Pokemon name={pokemon.name} image={pokemon.image}
+        ))}
+      </ScrollView>
+    )
+  }
+}`
+            }
+            ranges={[
+              { loc: [0, 2], title: 'Load React, Components from React-Native' },
+              { loc: [7, 18], title: 'Same as before, but with a ScrollView' },
+            ]}
+          />
           {basicSlide(
             `And finally, our Search Component`,
           )}
+
+          <CodeSlide
+            transition={[]}
+            lang="js"
+            code={
+`import React, { Component } from 'react'
+import { View, TextInput } from 'react-native'
+
+import Pokemons from './Pokemons'
+
+class Search extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      pokemons: allPokemons
+    }
+  }
+
+  search = (searchTerm) => {
+    this.setState({
+      pokemons: pokemons.filter(
+        ({ identifier }) => (
+          identifier.includes(searchTerm)
+        )
+      )
+    })
+  }
+
+  render() {
+    const { onSelect } = this.props
+
+    return (
+      <View>
+        <View>
+          <TextInput
+            onChange={this.search}
+          />
+      <View>
+        <Pokemons
+          pokemons={this.state.pokemons}
+          onSelect={onSelect}
+        />
+      </View>
+    )
+  }
+}`
+            }
+            ranges={[
+              { loc: [0, 2], title: 'Load React, Components from React-Native' },
+              { loc: [23, 38], title: 'Same logic as before, with a TextInput' },
+            ]}
+          />
           {basicSlide(
             `React-Native`,
             [
@@ -415,7 +527,7 @@ class Search extends Component {
           {basicSlide(
             `JS Fatigue`,
             [
-              'React is simple and small, so its ecosystem is huge and made of small pieces.',
+              'React is simple and small, so its ecosystem is huge and made of small, quickly moving pieces.',
               'Webpack, Flux, Redux, MobX, Storybook, Jest, Sagas, React-Router, npm, ES2015+...',
               `It makes me kinda sad to think developers are tired, when we've never solved problems so well.`,
               `(note that "JS Fatigue" is far from exclusive to React)`
