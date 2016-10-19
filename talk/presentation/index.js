@@ -16,6 +16,10 @@ import {
   // Text,
 } from 'spectacle';
 import CodeSlide from 'spectacle-code-slide';
+
+import Pikachu from './demoComponents/Pikachu';
+import Pokemons from './demoComponents/Pokemons';
+
 // Import image preloader util
 import preloader from 'spectacle/lib/utils/preloader';
 
@@ -197,6 +201,10 @@ class Pikachu extends React.Component {
             ]}
           />
           {basicSlide(
+            'Pika Pika!',
+            <Pikachu />
+          )}
+          {basicSlide(
             `Now let's display multiple Pokémons`,
             'Using curly braces switches from JSX to a JS context'
           )}
@@ -233,6 +241,11 @@ class Pokemons extends React.Component {
               { loc: [9, 17], title: 'Using map to get multiple Pokemon Components' },
             ]}
           />
+          {basicSlide(
+              'Pika! Pi!',
+              <Pokemons />
+          )}
+
           {basicSlide(
             `Finally, let's search & filter`
           )}
