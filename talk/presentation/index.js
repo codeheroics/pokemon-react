@@ -29,11 +29,12 @@ require('spectacle/lib/themes/default/index.css');
 
 
 const images = {
-  homepage: require('../assets/homepage.jpg'),
+  jest: require('../assets/jest.png'),
   pokedex1: require('../assets/pokedex1.gif'),
   pokedex2: require('../assets/pokedex2.gif'),
   puzzled: require('../assets/pikachu-puzzled.gif'),
   react: require('../assets/react_logo.png'),
+  storybook: require('../assets/storybook.png'),
   victory1: require('../assets/victory1.gif'),
   victory2: require('../assets/victory2.gif'),
   victory3: require('../assets/victory3.gif'),
@@ -99,7 +100,11 @@ export default class Presentation extends React.Component { // eslint-disable-li
           )}
           {basicSlide(
             'Core Philosophies',
-            <Image src={images.homepage.replace('/', '')} />
+            [
+              'Declarative',
+              'Component-Based',
+              'Learn Once, Write Anywhere',
+            ]
           )}
           {basicSlide(
             'What this means (to me)',
@@ -115,7 +120,7 @@ export default class Presentation extends React.Component { // eslint-disable-li
             <List>
               <Appear><ListItem><b>Props</b>, the attributes which are given to him</ListItem></Appear>
               <Appear><ListItem>An internal <b>State</b></ListItem></Appear>
-              <Appear><ListItem>A <b>lifecycle</b> (creation, update, suppression)</ListItem></Appear>
+              <Appear><ListItem>A <b>lifecycle</b> (creation, update, destruction)</ListItem></Appear>
             </List>
           </Slide>
           {basicSlide(
@@ -309,6 +314,9 @@ class Search extends Component {
           />
 
           {basicSlide(
+            `Demo`,
+          )}
+          {basicSlide(
             `We can now build React apps!`,
             <Image src={images.victory1} />
           )}
@@ -325,7 +333,7 @@ class Search extends Component {
             [
               `No HTML`,
               `No CSS`,
-              `C#, Objective-C or Swift`,
+              `Java, Objective-C or Swift`,
               `Views`,
             ]
           )}
@@ -468,9 +476,12 @@ class Search extends Component {
             }
             ranges={[
               { loc: [0, 2], title: 'Load React, Components from React-Native' },
-              { loc: [23, 38], title: 'Same logic as before, with a TextInput' },
+              { loc: [27, 38], title: 'Same logic as before, with a TextInput' },
             ]}
           />
+          {basicSlide(
+            'Demo'
+          )}
           {basicSlide(
             `We've learned once, and we can write everywhere!`,
             <Image src={images.victory2} />
@@ -498,6 +509,9 @@ class Search extends Component {
             ]
           )}
           {basicSlide(
+            'Demo'
+          )}
+          {basicSlide(
             `React-Native-Web`,
             <Image src={images.victory3} />
           )}
@@ -512,11 +526,19 @@ class Search extends Component {
             ]
           )}
           {basicSlide(
+            `Testing with Jest`,
+            <Image src={images.jest} width="600" height="500" />
+          )}
+          {basicSlide(
             `Visual Testing with React-Storybook`,
             [
               `Automatic testing is cool...`,
               `But automatic testing won't tell me if my component looks terrible`,
             ]
+          )}
+          {basicSlide(
+            `Visual Testing with React-Storybook`,
+            <Image src={images.storybook} />
           )}
           {basicSlide(
             `I probably don't have time to talk about this, but these are great experiments`,
