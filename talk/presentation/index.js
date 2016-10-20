@@ -10,6 +10,7 @@ import {
   List,
   Slide,
   Spectacle,
+  Text,
 } from 'spectacle';
 import CodeSlide from 'spectacle-code-slide';
 
@@ -29,6 +30,13 @@ require('spectacle/lib/themes/default/index.css');
 
 const images = {
   homepage: require('../assets/homepage.jpg'),
+  pokedex1: require('../assets/pokedex1.gif'),
+  pokedex2: require('../assets/pokedex2.gif'),
+  puzzled: require('../assets/pikachu-puzzled.gif'),
+  react: require('../assets/react_logo.png'),
+  victory1: require('../assets/victory1.gif'),
+  victory2: require('../assets/victory2.gif'),
+  victory3: require('../assets/victory3.gif'),
 };
 
 preloader(images);
@@ -84,7 +92,10 @@ export default class Presentation extends React.Component { // eslint-disable-li
           )}
           {basicSlide(
             `We're gonna talk about React`,
-            `An Open-Source "JavaScript library for building user interfaces", pushed by Facebook`
+            <div>
+              <Image src={images.react} />
+              <Text>An Open-Source "JavaScript library for building user interfaces", pushed by Facebook</Text>
+            </div>
           )}
           {basicSlide(
             'Core Philosophies',
@@ -133,7 +144,11 @@ ReactDOM.render(<HelloTakeOff />, document.getElementById('root'));`
               />
           )}
           {basicSlide(
-            `Let's write a basic React app: A Pokedex`
+            `Let's write a basic React app: A Pokedex`,
+            <Image src={images.pokedex1} />
+          )}
+          {basicSlide(
+            `First, let's create a "Pokemon" Component`
           )}
           <CodeSlide
             transition={[]}
@@ -295,10 +310,11 @@ class Search extends Component {
 
           {basicSlide(
             `We can now build React apps!`,
-            [
+            <Image src={images.victory1} />
+          )}
+          {basicSlide(
               `We've covered the "learn once" part of the philosophy`,
               `Let's work on the "write anywhere" part`,
-            ]
           )}
           {basicSlide(
             `I wish I knew how to write mobile apps`,
@@ -331,6 +347,7 @@ class Search extends Component {
           )}
           {basicSlide(
             `So. remember our Pokedex?`,
+            <Image src={images.pokedex2} />
           )}
 
           {basicSlide(
@@ -455,10 +472,13 @@ class Search extends Component {
             ]}
           />
           {basicSlide(
-            `React-Native`,
+            `We've learned once, and we can write everywhere!`,
+            <Image src={images.victory2} />
+          )}
+          {basicSlide(
+            'Now remember,',
             [
-              `We've learned once, and we can write everywhere!`,
-              `Now remember, the philosophy here is "learn once, write everywhere", NOT "write once, everywhere"`,
+              `The philosophy here is "learn once, write everywhere", NOT "write once, everywhere"`,
               `To follow OS patterns, you can split code between versions`,
             ]
           )}
@@ -467,7 +487,8 @@ class Search extends Component {
             'Our React-Native code looks a lot like our previous React code, with extra constraints'
           )}
           {basicSlide(
-            `Couldn't we just apply these constraints to webapps too?`
+            `Couldn't we just apply these constraints to webapps too?`,
+            <Image src={images.puzzled} />
           )}
           {basicSlide(
             `React-Native-Web`,
@@ -475,6 +496,10 @@ class Search extends Component {
               `An exciting project, with some interesting use cases`,
               `Down the road, may be the way to "write once, everywhere"`,
             ]
+          )}
+          {basicSlide(
+            `React-Native-Web`,
+            <Image src={images.victory3} />
           )}
           {basicSlide(
             `Now to explore a bit the ecosystem.`
