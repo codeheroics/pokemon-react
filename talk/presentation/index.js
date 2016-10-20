@@ -1,7 +1,5 @@
-// Import React
 import React from 'react';
 
-// Import Spectacle Core tags
 import {
   Appear,
   CodePane,
@@ -10,10 +8,8 @@ import {
   Image,
   ListItem,
   List,
-  Markdown,
   Slide,
   Spectacle,
-  // Text,
 } from 'spectacle';
 import CodeSlide from 'spectacle-code-slide';
 
@@ -25,9 +21,6 @@ import preloader from 'spectacle/lib/utils/preloader';
 
 // Import theme
 import createTheme from 'spectacle/lib/themes/default';
-
-// Import custom component
-import Interactive from '../assets/interactive';
 
 // Require CSS
 require('normalize.css');
@@ -43,12 +36,6 @@ preloader(images);
 const theme = createTheme();
 theme.screen.components.codePane.pre.fontSize = '.75em';
 
-const markdownSlide = (source) => (
-  <Slide><Markdown>{source}</Markdown></Slide>
-);
-
-const slidify = slides => slides.map(slide => typeof slide === 'string' ? markdownSlide(slide) : slide);
-
 const basicSlide = (title, content, notes) => (
   <Slide notes={notes}>
     <Heading size={1} caps fit>
@@ -62,7 +49,7 @@ const basicSlide = (title, content, notes) => (
   </Slide>
 );
 
-export default class Presentation extends React.Component {
+export default class Presentation extends React.Component { // eslint-disable-line react/no-multi-comp
   render() {
     return (
       <Spectacle theme={theme}>
@@ -92,6 +79,7 @@ export default class Presentation extends React.Component {
             [
               `You've heard about ES2016`,
               `You've heard about sharing code between native platforms.`,
+              `... And about a ton of other cool stuff`,
             ]
           )}
           {basicSlide(
@@ -309,7 +297,7 @@ class Search extends Component {
             `We can now build React apps!`,
             [
               `We've covered the "learn once" part of the philosophy`,
-              `Let's work on the "write anywhere" part`
+              `Let's work on the "write anywhere" part`,
             ]
           )}
           {basicSlide(
@@ -543,7 +531,7 @@ class Search extends Component {
               'React is simple and small, so its ecosystem is huge and made of small, quickly moving pieces.',
               'Webpack, Flux, Redux, MobX, Storybook, Jest, Sagas, React-Router, npm, ES2015+...',
               `It makes me kinda sad to think developers are tired, when we've never solved problems so well.`,
-              `(note that "JS Fatigue" is far from exclusive to React)`
+              `(note that "JS Fatigue" is far from exclusive to React)`,
             ]
           )}
           {basicSlide(
