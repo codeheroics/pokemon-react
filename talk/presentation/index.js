@@ -6,6 +6,7 @@ import {
   Deck,
   Heading,
   Image,
+  Link,
   ListItem,
   List,
   Slide,
@@ -35,6 +36,7 @@ const images = {
   puzzled: require('../assets/pikachu-puzzled.gif'),
   react: require('../assets/react_logo.png'),
   storybook: require('../assets/storybook.png'),
+  takeoff: require('../assets/take-off-logo.png'),
   victory1: require('../assets/victory1.gif'),
   victory2: require('../assets/victory2.gif'),
   victory3: require('../assets/victory3.gif'),
@@ -64,6 +66,38 @@ export default class Presentation extends React.Component { // eslint-disable-li
       <Spectacle theme={theme}>
         <Deck transition={['slide', 'fade', 'zoom']} transitionDuration={500}>
           <Slide>
+            <Image src={images.takeoff} />
+            <br />
+            <Link href="https://twitter.com/codeheroics">
+              Talk by @codeheroics
+            </Link>
+            <br />
+            <Link href="https://github.com/codeheroics/pokemon-react">
+              Demos on Github
+            </Link>
+
+          </Slide>
+          {basicSlide(
+            `Oh hi! I'm Hugo`,
+            [
+              'Telecom Lille graduate',
+              'SFR > TF1 > Le Monde > Vente-Privée > Voyages-SNCF',
+              'Freelance JS developer',
+              'Back-end > Full-Stack > Front-end dev',
+              'Just a dev (not an advocate, not a contributor)',
+            ],
+            `I wanna come back to Lille!`
+          )}
+          {basicSlide(
+            'Previously on TakeOff:',
+            [
+              `... Tons of cool stuff`,
+              `ES2016`,
+              `Sharing code between native platforms with Angular2 & NativeScript`,
+              `Functional Webapps`,
+            ]
+          )}
+          <Slide>
             <Heading size={1} fit caps lineHeight={1}>
               React
             </Heading>
@@ -74,23 +108,6 @@ export default class Presentation extends React.Component { // eslint-disable-li
               ... and back
             </Heading>
           </Slide>
-          {basicSlide(
-            `Oh hi! I'm Hugo`,
-            [
-              'Telecom Lille graduate',
-              'Freelance JS developer',
-              'SFR > TF1 > Le Monde > Vente-Privée > Voyages-SNCF',
-            ],
-            `I wanna come back to Lille!`
-          )}
-          {basicSlide(
-            'Previously on TakeOff:',
-            [
-              `You've heard about ES2016`,
-              `You've heard about sharing code between native platforms.`,
-              `... And about a ton of other cool stuff`,
-            ]
-          )}
           {basicSlide(
             `We're gonna talk about React`,
             <div>
@@ -483,13 +500,13 @@ class Search extends Component {
             'Demo'
           )}
           {basicSlide(
-            `We've learned once, and we can write everywhere!`,
+            `We've learned once, and we can write anywhere!`,
             <Image src={images.victory2} />
           )}
           {basicSlide(
             'Now remember,',
             [
-              `The philosophy here is "learn once, write everywhere", NOT "write once, everywhere"`,
+              `The philosophy here is "learn once, write anywhere", NOT "write once, everywhere"`,
               `To follow OS patterns, you can split code between versions`,
             ]
           )}
@@ -505,7 +522,7 @@ class Search extends Component {
             `React-Native-Web`,
             [
               `An exciting project, with some interesting use cases`,
-              `Down the road, may be the way to "write once, everywhere"`,
+              `Down the road, may be the way to "write once, everywhere", for Web & Native`,
             ]
           )}
           {basicSlide(
@@ -519,14 +536,15 @@ class Search extends Component {
             `Now to explore a bit the ecosystem.`
           )}
           {basicSlide(
-            `Testing with Jest`,
+            `Snapshot testing with Jest`,
             [
               `Testing components sucks. They change all the time.`,
               `Snapshot testing is an elegant solution to that.`,
+              `Output the component markup, validate it, then compare against that markup next time`,
             ]
           )}
           {basicSlide(
-            `Testing with Jest`,
+            `Snapshot testing with Jest`,
             <Image src={images.jest} width="600" height="500" />
           )}
           {basicSlide(
@@ -541,10 +559,11 @@ class Search extends Component {
             <Image src={images.storybook} />
           )}
           {basicSlide(
-            `I probably don't have time to talk about this, but these are great experiments`,
+            `I probably don't have time to talk about this, but great experiments`,
             [
               `React-Music`,
               `React-Game-Kit`,
+              `From "Write anywhere" to "write anything"?`,
             ]
           )}
           {basicSlide(
@@ -567,9 +586,9 @@ class Search extends Component {
                     }
                     margin="20px auto"
                   />
-              <ListItem>Is it functional? Is it Object-Oriented? Is it stuck between the two forever?</ListItem>
-              <ListItem>Facebook (and licensing questions)</ListItem>
-                <ListItem>The JS Fatigue Phenomenon (far from exclusive to React, but still)</ListItem>
+              <ListItem>Functional ideas but lots of classes and "this"</ListItem>
+              <ListItem>Facebook, and licensing questions, and Native roadmap</ListItem>
+              <ListItem>The JS Fatigue Phenomenon (far from exclusive to React, but still)</ListItem>
             </List>
           )}
           {basicSlide(
