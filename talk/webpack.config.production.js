@@ -11,7 +11,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, "dist"),
     filename: "bundle.js",
-    publicPath: "/dist/"
+    publicPath: "dist/"
   },
   plugins: [
     new webpack.optimize.OccurenceOrderPlugin(),
@@ -35,7 +35,7 @@ module.exports = {
       exclude: /node_modules/,
       loader: "babel-loader",
       query: {
-        presets: ['es2015', 'react']
+        presets: ['es2015', 'react', 'stage-0']
       }
     }, {
       test: /\.css$/,
