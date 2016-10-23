@@ -1,14 +1,14 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 class Pokemon extends Component {
   onSelect = () => this.props.onSelect(this.props.id)
 
-  shouldComponentUpdate({ caught, id }) {
-    return this.props.caught !== caught //|| this.props.id !== id
+  shouldComponentUpdate({ caught }) {
+    return this.props.caught !== caught;
   }
 
   render() {
-    const { caught, id, identifier, name } = this.props
+    const { caught, id, identifier, name, image } = this.props;
     return (
       <div
         className={`Pokemon ${caught ? 'Caught' : 'Uncaught'}`}
@@ -18,13 +18,15 @@ class Pokemon extends Component {
         <div>
         <img
           alt={name}
-          src={require(`../data/sprites/${id}.png`)}
+          src={image}
+          width="400"
+          height="400"
         />
         </div>
         {name}
       </div>
-    )
+    );
   }
 }
 
-export default Pokemon
+export default Pokemon;

@@ -38,6 +38,7 @@ class Search extends Component {
           <TextInput
             onChangeText={this.search}
             placeholder="Enter a Pokémon name"
+            style={{ minWidth: 150 }}
           />
         </View>
         <Pokemons
